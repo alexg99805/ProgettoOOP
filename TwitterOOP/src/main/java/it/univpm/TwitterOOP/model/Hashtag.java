@@ -1,7 +1,7 @@
 package it.univpm.TwitterOOP.model;
 
 /**
- * Questa classe permette di visualizzare gli hashtag presenti nel testo del tweet.
+ * Questa classe definisce l'oggetto hashtag, presenti nel corpo del tweet
  * @author Davide Pacioni
  * @author Alex Giaccio
  *
