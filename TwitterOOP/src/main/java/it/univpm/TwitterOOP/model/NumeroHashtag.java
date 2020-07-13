@@ -1,7 +1,7 @@
 package it.univpm.TwitterOOP.model;
 
 /**
- * Xlasse che salva il numero di hashtag per ogni tweet con il relativo 
+ * Classe che salva il numero di hashtag per ogni tweet con il relativo 
  * hashtag utilizzato un numero di volte da un utente
  * @author Davide Pacioni
  * @author Alex Giaccio
@@ -22,7 +22,7 @@ public class NumeroHashtag {
 
 	public NumeroHashtag() {
 		super();
-		// TODO Auto-generated constructor stub
+
 	}
 
 	/**
