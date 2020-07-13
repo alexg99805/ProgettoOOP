@@ -8,19 +8,18 @@ package it.univpm.TwitterOOP.model;
  */
 public class urls {
 	
-	private String Url;
-	private String ExpandedUrl;
+	private String url;
+	private String espansioneU;
 
 	public urls() {
 		super();
-		// TODO Auto-generated constructor stub
 	}
 
 	/**
 	 * @return url
 	 */
 	public String getUrl() {
-		return Url;
+		return url;
 	}
 
 	/**
@@ -28,14 +27,14 @@ public class urls {
 	 * modifica url
 	 */
 	public void setUrl(String Url) {
-		this.Url = Url;
+		this.url = Url;
 	}
 
 	/**
-	 * @return expandedUrl
+	 * @return espansioneU
 	 */
 	public String getExpandedUrl() {
-		return ExpandedUrl;
+		return espansioneU;
 	}
 
 	/**
@@ -43,7 +42,7 @@ public class urls {
 	 * modifica l'url esteso
 	 */
 	public void setExpandedUrl(String expandedUrl) {
-		ExpandedUrl = expandedUrl;
+		espansioneU = expandedUrl;
 	}
 	
 }

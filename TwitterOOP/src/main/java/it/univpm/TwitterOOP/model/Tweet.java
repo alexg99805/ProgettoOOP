@@ -2,6 +2,8 @@ package it.univpm.TwitterOOP.model;
 
 import java.util.ArrayList;
 
+import org.json.simple.parser.ParseException;
+
 /**
  * Questa classe contiene le principali caratteristiche di un Tweet
  * @author Davide Pacioni
@@ -11,12 +13,12 @@ import java.util.ArrayList;
 
 public class Tweet  extends ID {
 	
-	private String created_at;
-	private String text;
+	private CreationDate created_at;
+	private String testo;
 	private ArrayList<Entities> entities = new ArrayList<Entities>();
 	private ArrayList<User> user = new ArrayList<User>();
-	private long retweet_count;
-	private String lang;
+	private long contaretw;
+	private String language;
 	
 	
 	public Tweet() {
@@ -26,48 +28,51 @@ public class Tweet  extends ID {
 	/**
 	 * @return created_at
 	 */
-	public String getCreated_at() {
+	public CreationDate getCreated_at() {
 		return created_at;
 	}
 
 	/**
 	 * @param created_at 
+	 * @throws ParseException 
 	 */
-	public void setCreated_at(String created_at) {
-		this.created_at = created_at;
+	public void setCreated_at(String created_at) throws ParseException {
+		this.created_at= new CreationDate();
+		this.created_at.setCreation_date(created_at);
+		
 	}
 
 	/**
-	 * @return text
+	 * @return testo
 	 */
 	public String getText() {
-		return text;
+		return testo;
 	}
 
 	/**
 	 * @param text 
 	 */
 	public void setText(String text) {
-		this.text = text;
+		this.testo = text;
 	}	
 
 	/**
-	 * @return retweet_count
+	 * @return contaretw
 	 */
 	public long getRetweet_count() {
-		return retweet_count;
+		return contaretw;
 	}
 
 	/**
 	 * @param retweet_count
 	 */
 	public void setRetweet_count(long retweet_count) {
-		this.retweet_count = retweet_count;
+		this.contaretw = retweet_count;
 	}
 	
 
 	/**
-	 * @return le entities
+	 * @return entities
 	 */
 	public ArrayList<Entities> getEntities() {
 		return this.entities;
@@ -95,17 +100,17 @@ public class Tweet  extends ID {
 	}
 	
 	/**
-	 * @return lang
+	 * @return language
 	 */
 	public String getLang() {
-		return lang;
+		return language;
 	}
 
 	/**
 	 * @param lang
 	 */
 	public void setLang(String lang) {
-		this.lang = lang;
+		this.language = lang;
 	}
 
 }

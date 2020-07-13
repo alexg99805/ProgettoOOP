@@ -9,39 +9,38 @@ package it.univpm.TwitterOOP.model;
  */
 public class UserMentions extends ID {
 	
-	private String ScreenName;
-	private String name;
+	private String screennome;
+	private String nome;
 
 	public UserMentions() {
 		super();
-		// TODO Auto-generated constructor stub
 	}
 
 	/**
-	 * @return ScreenName
+	 * @return scrennome
 	 */
 	public String getScreenName() {
-		return ScreenName;
+		return screennome;
 	}
 	/**
 	 * @param screenName 
 	 * modifica nome
 	 */
 	public void setScreenName(String screenName) {
-		ScreenName = screenName;
+		screennome = screenName;
 	}
 	/**
-	 * @return name
+	 * @return nome
 	 */
 	public String getName() {
-		return name;
+		return nome;
 	}
 	/**
 	 * @param name
-	 * nodifica nome utente
+	 * modifica nome utente
 	 */
 	public void setName(String name) {
-		this.name = name;
+		this.nome = name;
 	}
 
 }

@@ -2,16 +2,17 @@ package it.univpm.TwitterOOP.model;
 
 
 /**
- * Questa classe ci permette di visualizzare le caratteristiche principali dell'utente autore del tweet
+ * Questa classe ci permette di vedere le caratteristiche principali dell'utente autore del tweet
  * @see ID
  * @author Davide Pacioni
+ * @author Alex Giaccio
  */
 public class User extends ID {
 	
-	private String name;
-	private String ScreenName;
-	private String description;
-	private long FollowerCount;
+	private String nome;
+	private String nomescr;
+	private String descrizione;
+	private long contafollow;
 	
 	public User() {
 		super();
@@ -19,10 +20,10 @@ public class User extends ID {
 
 
 	/**
-	 * @return name
+	 * @return nome
 	 */
 	public String getName() {
-		return name;
+		return nome;
 	}
 
 	/**
@@ -30,29 +31,29 @@ public class User extends ID {
 	 * modifica nome completo
 	 */
 	public void setName(String name) {
-		this.name = name;
+		this.nome = name;
 	}
 
 	/**
-	 * @return screenName
+	 * @return nomescr
 	 */
 	public String getScreenName() {
-		return ScreenName;
+		return nomescr;
 	}
 
 	/**
 	 * @param screenName
-	 * modifica il nome utente
+	 * modifica il nome dell'user
 	 */
 	public void setScreenName(String screenName) {
-		ScreenName = screenName;
+		nomescr = screenName;
 	}
 
 	/**
-	 * @return description
+	 * @return descrizione
 	 */
 	public String getDescription() {
-		return description;
+		return descrizione;
 	}
 
 	/**
@@ -60,22 +61,22 @@ public class User extends ID {
 	 * modifica la descrizione dell'utente
 	 */
 	public void setDescription(String description) {
-		this.description = description;
+		this.descrizione = description;
 	}
 
 	/**
-	 * @return followerCount
+	 * @return contafollow
 	 */
 	public long getFollowerCount() {
-		return FollowerCount;
+		return contafollow;
 	}
 
 	/**
 	 * @param followerCount 
-	 * modifica il numero di seguaci
+	 * modifica il numero di follower
 	 */
 	public void setFollowerCount(long followerCount) {
-		FollowerCount = followerCount;
+		contafollow = followerCount;
 	}
 	
 }
