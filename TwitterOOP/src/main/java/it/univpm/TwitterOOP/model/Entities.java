@@ -3,7 +3,7 @@ package it.univpm.TwitterOOP.model;
 import java.util.ArrayList;
 
 /**
- * Classe contenente arraylist relativi ad hashtag, userMentions e url
+ * Classe contenente arraylist relativi ad hashtag, userMentions, url e immagini
  * @see Hashtag
  * @see UserMentions
  * @see urls
@@ -14,62 +14,62 @@ import java.util.ArrayList;
  */
 public class Entities {
 	
-	private ArrayList<Hashtag> hashtags = new ArrayList<Hashtag>();
-	private ArrayList<UserMentions> mentions = new ArrayList<UserMentions>();
-	private ArrayList<urls> Url = new ArrayList<urls>();
-	private ArrayList<Image> image = new ArrayList<Image>();
+	private ArrayList<Hashtag> hashtg = new ArrayList<Hashtag>();
+	private ArrayList<UserMentions> menzioni = new ArrayList<UserMentions>();
+	private ArrayList<urls> url = new ArrayList<urls>();
+	private ArrayList<Image> immagini = new ArrayList<Image>();
 
 	
 	public Entities() {
 	}
 
 	/**
-	 * @return hashtags
+	 * @return hashtg
 	 */
 	public ArrayList<Hashtag> getHashtags() {
-		return this.hashtags;
+		return this.hashtg;
 	}
 
 	/**
 	 * @param newHashtag
 	 */
 	public void setHashtags(Hashtag newHashtag) {
-		hashtags.add(newHashtag);
+		hashtg.add(newHashtag);
 	}
 
 	/**
-	 * @return mentions
+	 * @return menzioni
 	 */
 	public ArrayList<UserMentions> getMentions() {
-		return this.mentions;
+		return this.menzioni;
 	}
 
 	/**
 	 * @param newMention
 	 */
 	public void setMentions(UserMentions newMention) {
-		mentions.add(newMention);
+		menzioni.add(newMention);
 	}
 
 	/**
 	 * @return url
 	 */
 	public ArrayList<urls> getUrl() {
-		return this.Url;
+		return this.url;
 	}
 
 	/**
 	 * @param newUrl 
 	 */
 	public void setUrl(urls newUrl) {
-		Url.add(newUrl);
+		url.add(newUrl);
 	}
 
 	/**
-	 * @return l'immagine
+	 * @return immagini
 	 */
 	public ArrayList<Image> getImages() {
-		return this.image;
+		return this.immagini;
 	}
 
 	/**
@@ -77,7 +77,7 @@ public class Entities {
 	 */
 	public void setImages(Image newImage) {
 		
-		image.add(newImage);
+		immagini.add(newImage);
 	}
 	
 }
