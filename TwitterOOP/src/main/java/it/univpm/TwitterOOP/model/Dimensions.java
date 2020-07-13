@@ -8,14 +8,14 @@ package it.univpm.TwitterOOP.model;
  */
 public class Dimensions {
 	
-	private long height;
-	private long width;
-	private String resize;
+	private long height=0;
+	private long width=0;
+	private long bytes=0;
+	private String resize = null;
 	
 
 	public Dimensions() {
 		super();
-		// TODO Auto-generated constructor stub
 	}
 
 	/**
@@ -58,6 +58,18 @@ public class Dimensions {
 	 */
 	public void setResize(String resize) {
 		this.resize = resize;
+	}
+
+	public long getSize() {
+		return bytes;
+	}
+
+	public void setSize(long size) {
+		this.bytes = size;
+	}
+	
+	public long calcDim(long w, long h) {
+		return (w*h)*3;
 	}
 	
 	
