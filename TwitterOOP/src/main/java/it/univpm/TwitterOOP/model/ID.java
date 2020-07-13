@@ -1,8 +1,8 @@
 package it.univpm.TwitterOOP.model;
 
 /**
- * Questa classe viene utilizzata come classe madre dato che ha un'unica variabile
- * che rappresenta l'id e che è comune alla maggiorparte delle classi nel package model.
+ * Questa classe viene adoperata come superclasse dato che ha una sola variabile che raffigura l'id 
+ * collettivo alla maggioranza delle classi nel package model
  * @author Davide Pacioni
  * @author Alex Giaccio
  *
@@ -14,7 +14,6 @@ public class ID {
 
 	public ID() {
 		super();
-		// TODO Auto-generated constructor stub
 	}
 
 
