@@ -148,7 +148,7 @@ Per eseguire le richieste GET o POST si può installare un API testing come Post
 <ul>
  	<li><strong>package it.univpm.TwitterOOP.service;</strong>
 
-<a href="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/servicediagrams.PNG" target="_blank" rel="noopener noreferrer"><img src="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/servicediagrams.PNG" alt="diagramma delle classi raffigurante il package service" width="500px" height="500px" /></a></li>
+<a href="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/servicediagrams.PNG" target="_blank" rel="noopener noreferrer"><img src="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/servicediagrams.PNG" alt="diagramma delle classi raffigurante il package service" width="600px" height="530px" /></a></li>
  	<li><strong>package it.univpm.TwitterOOP.util.other;</strong></li>
 </ul>
 <a href="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/otherdiagrams.PNG" target="_blank" rel="noopener noreferrer"><img src="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/otherdiagrams.PNG" alt="diagramma delle classi raffigurante il package util" width="900px" height="530px" /></a>
