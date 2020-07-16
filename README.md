@@ -160,7 +160,7 @@ Per eseguire le richieste GET o POST si può installare un API testing come Post
  	<li><strong>package it.univpm.TwitterOOP.util.stats;</strong></li>
 </ul>
 
-<a href="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/statsdiagram.PNG" target="_blank" rel="noopener noreferrer"><img src="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/statsdiagram.PNG" alt="diagramma delle classi raffigurante il package stats" width="500px" height="530px" /></a>
+<a href="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/statsdiagram.PNG" target="_blank" rel="noopener noreferrer"><img src="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/statsdiagram.PNG" alt="diagramma delle classi raffigurante il package stats" width="800px" height="530px" /></a>
 
 
 <h1><a id="user-content-software-usufruiti" class="anchor" href="https://github.com/alexg99805/ProgettoOOP#software-usufruiti" aria-hidden="true"></a>Software usufruiti</h1>
