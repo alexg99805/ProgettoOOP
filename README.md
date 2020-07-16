@@ -26,7 +26,51 @@ La nostra applicazione permette di richiedere mediante API REST (GET o POST) con
 <a href="https://github.com/alexg99805/ProgettoOOP/blob/master/UMLDiagram/OOP%20Use%20Case%20user.jpg" target="_blank" rel="noopener noreferrer"><img src="https://github.com/alexg99805/ProgettoOOP/raw/master/UMLDiagram/OOP%20Use%20Case%20user.jpg" alt="diagramma dei casi d'uso" width="600px" height="420px" /></a>
 <h2><a id="user-content--richieste-possibili-" class="anchor" href="https://github.com/alexg99805/ProgettoOOP#-richieste-possibili-" aria-hidden="true"></a>Richieste possibili</h2>
 Per eseguire le richieste GET o POST si può installare un API testing come Postman e, per effettuare queste richieste, l'utente può consultare la tabella di seguito che mostra le istruzioni per visualizzare i dati interessati:
-
+<table>
+<thead>
+<tr>
+<th><strong>TIPO</strong></th>
+<th><strong>ROTTA</strong></th>
+<th><strong>DESCRIZIONE</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GET</td>
+<td>/metadata</td>
+<td>restituisce gli alias utilizzati</td>
+</tr>
+<tr>
+<td>GET</td>
+<td>/data</td>
+<td>restituisce gli ultimi cento tweet</td>
+</tr>
+<tr>
+<td>GET</td>
+<td>/stats</td>
+<td>restituisce una statistica sul numero di hashtag contenuti in ogni tweet per gli ultimi cento tweet</td>
+</tr>
+<tr>
+<td>POST</td>
+<td>/data</td>
+<td>restituisce i tweet che rispettano i filtri specificati nel body della richiesta</td>
+</tr>
+<tr>
+<td>POST</td>
+<td>/stats</td>
+<td>restituisce una statistica sul numero di hashtag utilizzati da un utente(da inserire tramite body) e permette di visualizzare anche gli hashtag utilizzati dall'utente</td>
+</tr>
+</tbody>
+</table>
+<h4><a id="user-content-filtri-disponibili" class="anchor" href="https://github.com/alexg99805/ProgettoOOP/ProgettoOOP#filtri-disponibili" aria-hidden="true"></a>Filtri disponibili</h4>
+<table>
+<thead>
+<tr>
+<th><strong>NOME OPERATORE</strong></th>
+<th><strong>ESEMPIO</strong></th>
+<th><strong>DESCRIZIONE</strong></th>
+</tr>
+</thead>
 
 
 
