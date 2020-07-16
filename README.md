@@ -164,7 +164,13 @@ Per eseguire le richieste GET o POST si può installare un API testing come Post
 
 
 
-
+<h1><a id="user-content-software-usufruiti" class="anchor" href="https://github.com/alexg99805/ProgettoOOP#software-usufruiti" aria-hidden="true"></a>Software usufruiti</h1>
+<ul>
+ 	<li><a href="https://www.eclipse.org/" rel="nofollow">Eclipse</a> - ambiente di sviluppo integrato</li>
+ 	<li><a href="https://spring.io/projects/spring-boot" rel="nofollow">Spring Boot</a> - framework per sviluppo di applicazioni in Java</li>
+ 	<li><a href="https://maven.apache.org/" rel="nofollow">Maven</a> - strumento di gestione di progetti</li>
+ 	<li><a href="http://www.umldesigner.org/" rel="nofollow">UML Designer</a> - strumento per la realizzazione dei diagrammi UML</li>
+</ul>
 <h1><a id="user-content-autori" class="anchor" href="https://github.com/alexg99805/ProgettoOOP#autori" aria-hidden="true"></a>Autori</h1>
 <ul type="disc">
  	<li><a href="https://github.com/alexg99805/ProgettoOOP">Davide Pacioni</a></li>
