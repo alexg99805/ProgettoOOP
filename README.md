@@ -62,6 +62,68 @@ Per eseguire le richieste GET o POST si può installare un API testing come Post
 </tr>
 </tbody>
 </table>
+<h4><a id="user-content-filtri-a-disposizione" class="anchor" href="https://github.com/alexg99805/ProgettoOOP/ProgettoOOP#filtri-a-disposizione" aria-hidden="true"></a>Filtri a disposizione</h4>
+<table>
+<thead>
+<tr>
+<th><strong>NOME OPERATORE</strong></th>
+<th><strong>ESEMPIO</strong></th>
+<th><strong>DESCRIZIONE</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Greater</td>
+<td>{"Hashtag" : { "Greater" : 6}}</td>
+<td>maggiore (valido per campi numerici)</td>
+</tr>
+<tr>
+<td>Less</td>
+<td>{"RetweetCount" : { "Less" : 30}}</td>
+<td>minore (valido per campi numerici)</td>
+</tr>
+<tr>
+<td>Included</td>
+<td>{"Mentions" : { "Included" : ["equipeprivacy"]}}</td>
+<td>trova una corrispondenza con i valori dell'array (valido per stringhe)</td>
+</tr>
+<tr>
+<td>NotIncluded</td>
+<td>{"Lang" : { "NotIncluded" : ["en"]}}</td>
+<td>non trova una corrispondenza con i valori dell'array (valido per stringhe)</td>
+</tr>
+<tr>
+<td>In</td>
+<td>{"Hashtag" : { "In" : [2,7]}}</td>
+<td>compreso tra (valido per campi numerici)</td>
+</tr>
+<tr>
+<td>Nin</td>
+<td>{"Hashtag" : { "Nin" : [2,5]}}</td>
+<td>non compreso tra (valido per campi numerici)</td>
+</tr>
+<tr>
+<td>Created</td>
+<td>{"User" : { "Created" : ["cybersec_feeds"]}}</td>
+<td>stampa tutti i tweet creati da un utente (valido per stringhe)</td>
+</tr>
+<tr>
+<td>NotCreated</td>
+<td>{"User" : { "NotCreated" : ["cybersec_feeds"]}}</td>
+<td>stampa tutti i tweet non creati da un utente (valido per stringhe)</td>
+</tr>
+<tr>
+<td>Yes</td>
+<td>{"Mentions" : { "Yes" : []}}</td>
+<td>viene utilizzato per filtrare tutti quei tweet in cui sono presenti un'immagine o delle menzioni</td>
+</tr>
+<tr>
+<td>Not</td>
+<td>{"Image" : { "Not" : []}}</td>
+<td>viene utilizzato per filtrare tutti quei tweet in cui sono non presenti un'immagine o delle menzioni</td>
+</tr>
+</tbody>
+</table>
 
 
 
