@@ -8,4 +8,18 @@ La nostra applicazione permette di richiedere mediante API REST (GET o POST) con
  	<li>Restituzione dei dati riguardanti tweet filtrati in formato JSON;</li>
  	<li>Restituzione dei metadati in formato JSON, cioè l’elenco degli attributi;</li>
  	<li>Restituzione delle statistiche sul numero di tweet per giorno, mese ed anno; statistiche sugli hashtag con una top N degli hashtag con N impostato dall’utente; statistiche dei contenuti multimediali: dimensione immagini, larghezza, altezza.</li>
+</ul
+ <h2><a id="user-content-contenuti" class="anchor" href="https://github.com/alexg99805/ProgettoOOP#contenuti" aria-hidden="true"></a>Contenuti del progetto</h2>
+<ul type="circle">
+ 	<li><a href="https://github.com/alexg99805/ProgettoOOP#-richieste-possibili-">Richieste possibili da effettuare</a></li>
+ 	<li><a href="https://github.com/alexg99805/ProgettoOOP#-come-iniziare-">Inizializzazione</a></li>
+ 	<li><a href="https://github.com/alexg99805/ProgettoOOP#-eseguire-richieste-">Richieste possibili</a></li>
+ 	<li><a href="https://github.com/alexg99805/ProgettoOOP#filtri-disponibili">Filtri a disposizione</a></li>
+ 	<li><a href="https://github.com/alexg99805/ProgettoOOP#-sviluppo-">Struttura del progetto</a></li>
+ 	<li><a href="https://github.com/alexg99805/ProgettoOOP#diagramma-delle-classi">Diagramma delle classi</a></li>
+ 	<li><a href="https://github.com/alexg99805/ProgettoOOP#packages">Packages</a></li>
+ 	<li><a href="https://github.com/alexg99805/ProgettoOOP#classi">Classi</a></li>
+ 	<li><a href="https://github.com/alexg99805/ProgettoOOP#-chiamate-">Chiamate</a></li>
+ 	<li><a href="https://github.com/alexg99805/ProgettoOOP#software-utilizzati">Software usufruiti</a></li>
+ 	<li><a href="https://github.com/alexg99805/ProgettoOOP#autori">Autori del progetto</a></li>
 </ul>
