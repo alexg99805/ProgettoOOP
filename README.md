@@ -162,7 +162,7 @@ Per eseguire le richieste GET o POST si può installare un API testing come Post
 
 <a href="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/statsdiagram.PNG" target="_blank" rel="noopener noreferrer"><img src="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/statsdiagram.PNG" alt="diagramma delle classi raffigurante il package stats" width="800px" height="530px" /></a>
 <h2><a id="user-content--chiamate-" class="anchor" href="https://github.com/alexg99805/ProgettoOOP#-chiamate-" aria-hidden="true"></a>Chiamate</h2>
-In questo punto esaminiamo nello specifico le chiamate che l'utente può effettuare utilizzando i diagrammi delle sequenze, i quali mostrano come interagiscono tra di loro gli o<ul>
+In questo punto esaminiamo nello specifico le chiamate che l'utente può effettuare utilizzando i diagrammi delle sequenze, i quali mostrano come interagiscono tra di loro gli oggetti delle varie classi e forniscono informazioni anche di tipo temporale, poiché le interazioni nel diagramma vengono disposte in ordine cronologico.<ul>
  	<li><strong>Chiamata GET /metadata</strong></li>
 </ul>
 
@@ -170,7 +170,7 @@ In questo punto esaminiamo nello specifico le chiamate che l'utente può effettu
 <ul>
  	<li><strong>Chiamata GET /data</strong></li>
 </ul>
-<a href="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/sequence2.PNG" target="_blank" rel="noopener noreferrer"><img src="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/sequence2.PNG" alt="Chiamata GET data sequence diagram" width="440px" height="370px" /></a>ggetti delle varie classi e forniscono informazioni anche di tipo temporale, poiché le interazioni nel diagramma vengono disposte in ordine cronologico.
+<a href="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/sequence2.PNG" target="_blank" rel="noopener noreferrer"><img src="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/sequence2.PNG" alt="Chiamata GET data sequence diagram" width="440px" height="370px" /></a>
 
 <h1><a id="user-content-software-usufruiti" class="anchor" href="https://github.com/alexg99805/ProgettoOOP#software-usufruiti" aria-hidden="true"></a>Software usufruiti</h1>
 <ul>
