@@ -125,227 +125,44 @@ Per eseguire le richieste GET o POST si può installare un API testing come Post
 </tbody>
 </table>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<h2><a id="user-content--struttura-del-progetto-" class="anchor" href="https://github.com/alexg99805/ProgettoOOP#-struttura-del-progetto-" aria-hidden="true"></a>Struttura del progetto</h2>
+<h3><a id="user-content-diagramma-delle-classi" class="anchor" href="https://github.com/alexg99805/ProgettoOOP#diagramma-delle-classi" aria-hidden="true"></a>Diagramma delle classi</h3>
+<a href="https://github.com/alexg99805/ProgettoOOP/blob/master/UMLDiagram/OOP%20Class%20Diagram.jpg" target="_blank" rel="noopener noreferrer"><img src="https://github.com/alexg99805/ProgettoOOP/raw/master/UMLDiagram/OOP%20Class%20Diagram.jpg" alt="diagramma delle classi raffigurante tutti i package con tutte le classi" width="1000px" height="700px" /></a>
+<h3><a id="user-content-packages" class="anchor" href="https://github.com/alexg99805/ProgettoOOP#packages" aria-hidden="true"></a>Packages</h3>
+<a href="https://github.com/alexg99805/ProgettoOOP/blob/master/UMLDiagram/OOP%20Class%20Diagram%20package.jpg" target="_blank" rel="noopener noreferrer"><img src="https://github.com/alexg99805/ProgettoOOP/raw/master/UMLDiagram/OOP%20Class%20Diagram%20package.jpg" alt="diagramma delle classi raffiguranti i packages" width="650px" height="390px" /></a>
+<h3><a id="user-content-classi" class="anchor" href="https://github.com/alexg99805/ProgettoOOP#classi" aria-hidden="true"></a>Classi</h3>
+<ul>
+ 	<li><strong>package it.univpm.TwitterOOP.controller;</strong></li>
+</ul>
+<a href="https://github.com/alexg99805/ProgettoOOP/blob/master/UMLDiagram/OOP%20Class%20Diagram%20controllerdiagrams.jpg" target="_blank" rel="noopener noreferrer"><img src="https://github.com/alexg99805/ProgettoOOP/raw/master/UMLDiagram/OOP%20Class%20Diagram%20controllerdiagrams.jpg" alt="diagramma delle classi raffigurante il package controller" width="280px" height="200px" /></a>
+<ul>
+ 	<li><strong>package it.univpm.TwitterOOP.db;</strong></li>
+</ul>
+<a href="https://github.com/alexg99805/ProgettoOOP/blob/master/UMLDiagram/OOP%20Class%20Diagram%20databasediagram.jpg" target="_blank" rel="noopener noreferrer"><img src="https://github.com/alexg99805/ProgettoOOP/raw/master/UMLDiagram/OOP%20Class%20Diagram%20databasediagram.jpg" alt="diagramma delle classi raffigurante il package database" width="200px" height="180px" /></a>
+<ul>
+ 	<li><strong>package it.univpm.TwitterOOP.exception;</strong></li>
+</ul>
+<a href="https://github.com/alexg99805/ProgettoOOP/blob/master/UMLDiagram/OOP%20Class%20Diagram%20exceptionsdiagrams.jpg" target="_blank" rel="noopener noreferrer"><img src="https://github.com/alexg99805/ProgettoOOP/raw/master/UMLDiagram/OOP%20Class%20Diagram%20exceptionsdiagrams.jpg" alt="diagramma delle classi raffigurante il package Exception" width="550px" height="400px" /></a>
+<ul>
+ 	<li><strong>package it.univpm.TwitterOOP.model;</strong></li>
+</ul>
+<a href="https://github.com/alexg99805/ProgettoOOP/blob/master/UMLDiagram/OOP%20Class%20Diagram%20modelsdiagrams.jpg" target="_blank" rel="noopener noreferrer"><img src="https://github.com/alexg99805/ProgettoOOP/raw/master/UMLDiagram/OOP%20Class%20Diagram%20modelsdiagrams.jpg" alt="diagramma delle classi raffigurante il package model" width="1000px" height="650px" /></a>
+<ul>
+ 	<li><strong>package it.univpm.TwitterOOP.service;</strong>
+
+<a href="https://github.com/alexg99805/ProgettoOOP/blob/master/UMLDiagram/OOP%20Class%20Diagram%20servicediagrams.jpg" target="_blank" rel="noopener noreferrer"><img src="https://github.com/alexg99805/ProgettoOOP/raw/master/UMLDiagram/OOP%20Class%20Diagram%20servicediagrams.jpg" alt="diagramma delle classi raffigurante il package service" width="500px" height="530px" /></a></li>
+ 	<li><strong>package it.univpm.TwitterOOP.util.other;</strong></li>
+</ul>
+<a href="https://github.com/alexg99805/ProgettoOOP/blob/master/UMLDiagram/OOP%20Class%20Diagram%20otherdiagrams.jpg" target="_blank" rel="noopener noreferrer"><img src="https://github.com/alexg99805/ProgettoOOP/raw/master/UMLDiagram/OOP%20Class%20Diagram%20otherdiagrams.jpg" alt="diagramma delle classi raffigurante il package util" width="900px" height="530px" /></a>
+<ul>
+ 	<li><strong>package it.univpm.TwitterOOP.util.filter;</strong></li>
+</ul>
+<a href="https://github.com/alexg99805/ProgettoOOP/blob/master/UMLDiagram/OOP%20Class%20Diagram%20filterdiagrams.jpg" target="_blank" rel="noopener noreferrer"><img src="https://github.com/alexg99805/ProgettoOOP/raw/master/UMLDiagram/OOP%20Class%20Diagram%20filterdiagrams.jpg" alt="diagramma delle classi raffigurante il package filter" width="890px" height="530px" /></a>
+<ul>
+ 	<li><strong>package it.univpm.TwitterOOP.util.stats;</strong></li>
+</ul>
+
+<a href="https://github.com/alexg99805/ProgettoOOP/blob/master/UMLDiagram/OOP%20Class%20Diagram%20statsdiagram.jpg" target="_blank" rel="noopener noreferrer"><img src="https://github.com/alexg99805/ProgettoOOP/raw/master/UMLDiagram/OOP%20Class%20Diagram%20statsdiagram.jpg" alt="diagramma delle classi raffigurante il package stats" width="220px" height="180px" /></a>
 
 
 
