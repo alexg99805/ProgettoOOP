@@ -20,7 +20,7 @@ La nostra applicazione permette di richiedere mediante API REST (GET o POST) con
  	<li><a href="https://github.com/alexg99805/ProgettoOOP#classi">Classi</a></li>
  	<li><a href="https://github.com/alexg99805/ProgettoOOP#-chiamate-">Chiamate</a></li>
  	<li><a href="https://github.com/alexg99805/ProgettoOOP#software-utilizzati">Software usufruiti</a></li>
- 	<li><a href="https://github.com/alexg99805/ProgettoOOP#autori">Autori del progetto</a></li>
+ 	<li><a href="https://github.com/alexg99805/ProgettoOOP#autori">Autori</a></li>
 </ul>
 <h2><a id="user-content--richieste-possibili-da-effettuare" class="anchor" href="https://github.com/alexg99805/ProgettoOOP#-richieste-possibili-da-effettuare" aria-hidden="true"></a>Richieste possibili da effettuare</h2>
 <a href="https://github.com/alexg99805/ProgettoOOP/blob/master/UMLDiagram/OOP%20Use%20Case%20user.jpg" target="_blank" rel="noopener noreferrer"><img src="https://github.com/alexg99805/ProgettoOOP/raw/master/UMLDiagram/OOP%20Use%20Case%20user.jpg" alt="diagramma dei casi d'uso" width="600px" height="420px" /></a>
