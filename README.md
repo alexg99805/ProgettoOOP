@@ -126,7 +126,6 @@ Per eseguire le richieste GET o POST si può installare un API testing come Post
 </table>
 
 <h2><a id="user-content--struttura-del-progetto-" class="anchor" href="https://github.com/alexg99805/ProgettoOOP#-struttura-del-progetto-" aria-hidden="true"></a>Struttura del progetto</h2>
-<h3><a id="user-content-diagramma-delle-classi" class="anchor" href="https://github.com/alexg99805/ProgettoOOP#diagramma-delle-classi" aria-hidden="true"></a>Diagramma delle classi</h3>
 <a href="https://github.com/alexg99805/ProgettoOOP/blob/master/UMLDiagram/OOP%20Class%20Diagram.jpg" target="_blank" rel="noopener noreferrer"><img src="https://github.com/alexg99805/ProgettoOOP/raw/master/UMLDiagram/OOP%20Class%20Diagram.jpg" alt="diagramma delle classi raffigurante tutti i package con tutte le classi" width="1000px" height="700px" /></a>
 <h3><a id="user-content-packages" class="anchor" href="https://github.com/alexg99805/ProgettoOOP#packages" aria-hidden="true"></a>Packages</h3>
 <a href="https://github.com/alexg99805/ProgettoOOP/blob/master/UMLDiagram/OOP%20Class%20Diagram%20package.jpg" target="_blank" rel="noopener noreferrer"><img src="https://github.com/alexg99805/ProgettoOOP/raw/master/UMLDiagram/OOP%20Class%20Diagram%20package.jpg" alt="diagramma delle classi raffiguranti i packages" width="650px" height="390px" /></a>
