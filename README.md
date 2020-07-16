@@ -23,3 +23,10 @@ La nostra applicazione permette di richiedere mediante API REST (GET o POST) con
  	<li><a href="https://github.com/alexg99805/ProgettoOOP#software-utilizzati">Software usufruiti</a></li>
  	<li><a href="https://github.com/alexg99805/ProgettoOOP#autori">Autori del progetto</a></li>
 </ul>
+<h2><a id="user-content--richieste-possibili-da-effettuare" class="anchor" href="https://github.com/alexg99805/ProgettoOOP#-richieste-possibili-da-effettuare" aria-hidden="true"></a>Richieste possibili da effettuare</h2>
+<a href="https://github.com/alexg99805/ProgettoOOP/blob/master/UMLDiagram/OOP%20Use%20Case%20user.jpg" target="_blank" rel="noopener noreferrer"><img src="https://github.com/alexg99805/ProgettoOOP/raw/master/UMLDiagram/OOP%20Use%20Case%20user.jpg" alt="diagramma dei casi d'uso" width="600px" height="420px" /></a>
+<h1><a id="user-content--inizializzazione-" class="anchor" href="https://github.com/alexg99805/ProgettoOOP#-inizializzazione-" aria-hidden="true"></a>Inizializzazione</h1>
+Dopo aver scaricato un opportuno ambiente di sviluppo per la visualizzazione del codice in linguaggio Java, è possibile clonare la repository GitHub. Adesso è possibile importare il progetto nella finestra a comparsa. Quando il programma è completo, è possibile mandarlo in esecuzione cliccando con tasto destro sul progetto importato; nella finestra a comparsa si troverà il comando "Run as", eseguire il programma come "Spring boot App".
+
+<h2><a id="user-content--richieste-possibili-" class="anchor" href="https://github.com/alexg99805/ProgettoOOP#-richieste-possibili-" aria-hidden="true"></a>Richieste possibili</h2>
+Per eseguire le richieste GET o POST si può installare un API testing come Postman. La seguente tabella mostra le richieste possibili.
