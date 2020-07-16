@@ -23,7 +23,7 @@ La nostra applicazione permette di richiedere mediante API REST (GET o POST) con
  	<li><a href="https://github.com/alexg99805/ProgettoOOP#autori">Autori</a></li>
 </ul>
 <h2><a id="user-content--richieste-possibili-da-effettuare" class="anchor" href="https://github.com/alexg99805/ProgettoOOP#-richieste-possibili-da-effettuare" aria-hidden="true"></a>Richieste possibili da effettuare</h2>
-<a href="https://github.com/alexg99805/ProgettoOOP/blob/master/UMLDiagram/OOP%20Use%20Case%20user.jpg" target="_blank" rel="noopener noreferrer"><img src="https://github.com/alexg99805/ProgettoOOP/raw/master/UMLDiagram/OOP%20Use%20Case%20user.jpg" alt="diagramma dei casi d'uso" width="600px" height="420px" /></a>
+<a href="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/user.PNG" target="_blank" rel="noopener noreferrer"><img src="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/user.PNG" alt="diagramma dei casi d'uso" width="600px" height="420px" /></a>
 <h2><a id="user-content--richieste-possibili-" class="anchor" href="https://github.com/alexg99805/ProgettoOOP#-richieste-possibili-" aria-hidden="true"></a>Richieste possibili</h2>
 Per eseguire le richieste GET o POST si può installare un API testing come Postman e, per effettuare queste richieste, l'utente può consultare la tabella di seguito che mostra le istruzioni per visualizzare i dati interessati:
 <table>
@@ -43,12 +43,12 @@ Per eseguire le richieste GET o POST si può installare un API testing come Post
 <tr>
 <td>GET</td>
 <td>/data</td>
-<td>restituisce gli ultimi cento tweet</td>
+<td>restituisce l'intero dataset</td>
 </tr>
 <tr>
 <td>GET</td>
 <td>/stats</td>
-<td>restituisce una statistica sul numero di hashtag contenuti in ogni tweet per gli ultimi cento tweet</td>
+<td>restituisce delle statistiche sul numero di hashtag contenuti in ogni tweet per gli ultimi cento tweet, statistiche sul numero di tweet per giorno mese e anno, statistiche sui contenuti multimediali</td>
 </tr>
 <tr>
 <td>POST</td>
@@ -57,8 +57,8 @@ Per eseguire le richieste GET o POST si può installare un API testing come Post
 </tr>
 <tr>
 <td>POST</td>
-<td>/stats</td>
-<td>restituisce una statistica sul numero di hashtag utilizzati da un utente(da inserire tramite body) e permette di visualizzare anche gli hashtag utilizzati dall'utente</td>
+<td>/stats?field=N</td>
+<td>restituisce statistiche quali la top N degli hashtag contenuti in ogni tweet per gli ultimi cento tweet, statistiche sul numero di tweet per giorno mese e anno, statistiche sui contenuti multimediali</td></td>
 </tr>
 </tbody>
 </table>
@@ -127,42 +127,42 @@ Per eseguire le richieste GET o POST si può installare un API testing come Post
 
 <h2><a id="user-content--struttura-del-progetto-" class="anchor" href="https://github.com/alexg99805/ProgettoOOP#-struttura-del-progetto-" aria-hidden="true"></a>Struttura del progetto</h2>
 <h3><a id="user-content-packages" class="anchor" href="https://github.com/alexg99805/ProgettoOOP#packages" aria-hidden="true"></a>Packages</h3>
-<a href="https://github.com/alexg99805/ProgettoOOP/blob/master/UMLDiagram/OOP%20Class%20Diagram%20package.jpg" target="_blank" rel="noopener noreferrer"><img src="https://github.com/alexg99805/ProgettoOOP/raw/master/UMLDiagram/OOP%20Class%20Diagram%20package.jpg" alt="diagramma delle classi raffiguranti i packages" width="650px" height="390px" /></a>
+<a href="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/package.PNG" target="_blank" rel="noopener noreferrer"><img src="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/package.PNG" alt="diagramma delle classi raffiguranti i packages" width="650px" height="390px" /></a>
 <h3><a id="user-content-classi" class="anchor" href="https://github.com/alexg99805/ProgettoOOP#classi" aria-hidden="true"></a>Classi</h3>
 <ul>
  	<li><strong>package it.univpm.TwitterOOP.controller;</strong></li>
 </ul>
-<a href="https://github.com/alexg99805/ProgettoOOP/blob/master/UMLDiagram/OOP%20Class%20Diagram%20controllerdiagrams.jpg" target="_blank" rel="noopener noreferrer"><img src="https://github.com/alexg99805/ProgettoOOP/raw/master/UMLDiagram/OOP%20Class%20Diagram%20controllerdiagrams.jpg" alt="diagramma delle classi raffigurante il package controller" width="280px" height="200px" /></a>
+<a href="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/controllerdiagrams.PNG" target="_blank" rel="noopener noreferrer"><img src="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/controllerdiagrams.PNG" alt="diagramma delle classi raffigurante il package controller" width="280px" height="200px" /></a>
 <ul>
  	<li><strong>package it.univpm.TwitterOOP.db;</strong></li>
 </ul>
-<a href="https://github.com/alexg99805/ProgettoOOP/blob/master/UMLDiagram/OOP%20Class%20Diagram%20databasediagram.jpg" target="_blank" rel="noopener noreferrer"><img src="https://github.com/alexg99805/ProgettoOOP/raw/master/UMLDiagram/OOP%20Class%20Diagram%20databasediagram.jpg" alt="diagramma delle classi raffigurante il package database" width="200px" height="180px" /></a>
+<a href="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/databasediagram.PNG" target="_blank" rel="noopener noreferrer"><img src="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/databasediagram.PNG" alt="diagramma delle classi raffigurante il package database" width="200px" height="180px" /></a>
 <ul>
  	<li><strong>package it.univpm.TwitterOOP.exception;</strong></li>
 </ul>
-<a href="https://github.com/alexg99805/ProgettoOOP/blob/master/UMLDiagram/OOP%20Class%20Diagram%20exceptionsdiagrams.jpg" target="_blank" rel="noopener noreferrer"><img src="https://github.com/alexg99805/ProgettoOOP/raw/master/UMLDiagram/OOP%20Class%20Diagram%20exceptionsdiagrams.jpg" alt="diagramma delle classi raffigurante il package Exception" width="550px" height="400px" /></a>
+<a href="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/exceptionsdiagrams.PNG" target="_blank" rel="noopener noreferrer"><img src="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/exceptionsdiagrams.PNG" alt="diagramma delle classi raffigurante il package Exception" width="550px" height="400px" /></a>
 <ul>
  	<li><strong>package it.univpm.TwitterOOP.model;</strong></li>
 </ul>
-<a href="https://github.com/alexg99805/ProgettoOOP/blob/master/UMLDiagram/OOP%20Class%20Diagram%20modelsdiagrams.jpg" target="_blank" rel="noopener noreferrer"><img src="https://github.com/alexg99805/ProgettoOOP/raw/master/UMLDiagram/OOP%20Class%20Diagram%20modelsdiagrams.jpg" alt="diagramma delle classi raffigurante il package model" width="1000px" height="650px" /></a>
+<a href="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/modelsdiagrams.PNG" target="_blank" rel="noopener noreferrer"><img src="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/modelsdiagrams.PNG" alt="diagramma delle classi raffigurante il package model" width="1000px" height="650px" /></a>
 <ul>
  	<li><strong>package it.univpm.TwitterOOP.service;</strong>
 
-<a href="https://github.com/alexg99805/ProgettoOOP/blob/master/UMLDiagram/OOP%20Class%20Diagram%20servicediagrams.jpg" target="_blank" rel="noopener noreferrer"><img src="https://github.com/alexg99805/ProgettoOOP/raw/master/UMLDiagram/OOP%20Class%20Diagram%20servicediagrams.jpg" alt="diagramma delle classi raffigurante il package service" width="500px" height="530px" /></a></li>
+<a href="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/servicediagrams.PNG" target="_blank" rel="noopener noreferrer"><img src="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/servicediagrams.PNG" alt="diagramma delle classi raffigurante il package service" width="800px" height="530px" /></a></li>
  	<li><strong>package it.univpm.TwitterOOP.util.other;</strong></li>
 </ul>
-<a href="https://github.com/alexg99805/ProgettoOOP/blob/master/UMLDiagram/OOP%20Class%20Diagram%20otherdiagrams.jpg" target="_blank" rel="noopener noreferrer"><img src="https://github.com/alexg99805/ProgettoOOP/raw/master/UMLDiagram/OOP%20Class%20Diagram%20otherdiagrams.jpg" alt="diagramma delle classi raffigurante il package util" width="900px" height="530px" /></a>
+<a href="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/otherdiagrams.PNG" target="_blank" rel="noopener noreferrer"><img src="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/otherdiagrams.PNG" alt="diagramma delle classi raffigurante il package util" width="900px" height="530px" /></a>
 <ul>
  	<li><strong>package it.univpm.TwitterOOP.util.filter;</strong></li>
 </ul>
-<a href="https://github.com/alexg99805/ProgettoOOP/blob/master/UMLDiagram/OOP%20Class%20Diagram%20filterdiagrams.jpg" target="_blank" rel="noopener noreferrer"><img src="https://github.com/alexg99805/ProgettoOOP/raw/master/UMLDiagram/OOP%20Class%20Diagram%20filterdiagrams.jpg" alt="diagramma delle classi raffigurante il package filter" width="890px" height="530px" /></a>
+<a href="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/filterdiagrams.PNG" target="_blank" rel="noopener noreferrer"><img src="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/filterdiagrams.PNG" alt="diagramma delle classi raffigurante il package filter" width="890px" height="530px" /></a>
 <ul>
  	<li><strong>package it.univpm.TwitterOOP.util.stats;</strong></li>
 </ul>
 
-<a href="https://github.com/alexg99805/ProgettoOOP/blob/master/UMLDiagram/OOP%20Class%20Diagram%20statsdiagram.jpg" target="_blank" rel="noopener noreferrer"><img src="https://github.com/alexg99805/ProgettoOOP/raw/master/UMLDiagram/OOP%20Class%20Diagram%20statsdiagram.jpg" alt="diagramma delle classi raffigurante il package stats" width="220px" height="180px" /></a>
-
-
+<a href="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/statsdiagram.PNG" target="_blank" rel="noopener noreferrer"><img src="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/statsdiagram.PNG" alt="diagramma delle classi raffigurante il package stats" width="800px" height="530px" /></a>
+<h2><a id="user-content--chiamate-" class="anchor" href="https://github.com/alexg99805/ProgettoOOP#-chiamate-" aria-hidden="true"></a>Chiamate</h2>
+In questo punto esaminiamo nello specifico le chiamate che l'utente può effettuare utilizzando i diagrammi delle sequenze, i quali mostrano come interagiscono tra di loro gli oggetti delle varie classi e forniscono informazioni anche di tipo temporale, poiché le interazioni nel diagramma vengono disposte in ordine cronologico.
 
 <h1><a id="user-content-software-usufruiti" class="anchor" href="https://github.com/alexg99805/ProgettoOOP#software-usufruiti" aria-hidden="true"></a>Software usufruiti</h1>
 <ul>
