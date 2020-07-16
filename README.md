@@ -23,7 +23,7 @@ La nostra applicazione permette di richiedere mediante API REST (GET o POST) con
  	<li><a href="https://github.com/alexg99805/ProgettoOOP#autori">Autori</a></li>
 </ul>
 <h2><a id="user-content--richieste-possibili-da-effettuare" class="anchor" href="https://github.com/alexg99805/ProgettoOOP#-richieste-possibili-da-effettuare" aria-hidden="true"></a>Richieste possibili da effettuare</h2>
-<a href="https://github.com/alexg99805/ProgettoOOP/blob/master/UMLDiagram/OOP%20Use%20Case%20user.jpg" target="_blank" rel="noopener noreferrer"><img src="https://github.com/alexg99805/ProgettoOOP/raw/master/UMLDiagram/OOP%20Use%20Case%20user.jpg" alt="diagramma dei casi d'uso" width="600px" height="420px" /></a>
+<a href="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/user.PNG" target="_blank" rel="noopener noreferrer"><img src="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/user.PNG" alt="diagramma dei casi d'uso" width="600px" height="420px" /></a>
 <h2><a id="user-content--richieste-possibili-" class="anchor" href="https://github.com/alexg99805/ProgettoOOP#-richieste-possibili-" aria-hidden="true"></a>Richieste possibili</h2>
 Per eseguire le richieste GET o POST si può installare un API testing come Postman e, per effettuare queste richieste, l'utente può consultare la tabella di seguito che mostra le istruzioni per visualizzare i dati interessati:
 <table>
