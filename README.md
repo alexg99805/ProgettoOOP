@@ -62,15 +62,6 @@ Per eseguire le richieste GET o POST si può installare un API testing come Post
 </tr>
 </tbody>
 </table>
-<h4><a id="user-content-filtri-disponibili" class="anchor" href="https://github.com/alexg99805/ProgettoOOP/ProgettoOOP#filtri-disponibili" aria-hidden="true"></a>Filtri disponibili</h4>
-<table>
-<thead>
-<tr>
-<th><strong>NOME OPERATORE</strong></th>
-<th><strong>ESEMPIO</strong></th>
-<th><strong>DESCRIZIONE</strong></th>
-</tr>
-</thead>
 
 
 
