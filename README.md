@@ -57,6 +57,11 @@ Per eseguire le richieste GET o POST si può installare un API testing come Post
 </tr>
 <tr>
 <td>POST</td>
+<td>/stats</td>
+<td>restituisce statistiche quali il numero di occorrenti degli hashtag contenuti in ogni tweet per gli ultimi cento tweet, statistiche sul numero di tweet per giorno mese e anno, statistiche sui contenuti multimediali</td>
+</tr>
+<tr>
+<td>POST</td>
 <td>/stats?field=N</td>
 <td>restituisce statistiche quali la top N degli hashtag contenuti in ogni tweet per gli ultimi cento tweet, statistiche sul numero di tweet per giorno mese e anno, statistiche sui contenuti multimediali</td></td>
 </tr>
