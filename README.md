@@ -185,6 +185,7 @@ In questo punto esaminiamo nello specifico le chiamate che l'utente può effettu
  	<li><a href="https://spring.io/projects/spring-boot" rel="nofollow">Spring Boot</a> - framework per sviluppo di applicazioni in Java</li>
  	<li><a href="https://maven.apache.org/" rel="nofollow">Maven</a> - strumento di gestione di progetti</li>
  	<li><a href="http://www.umldesigner.org/" rel="nofollow">UML Designer</a> - strumento per la realizzazione dei diagrammi UML</li>
+  <li><a href="https://www.postman.com/" rel="nofollow">Postman</a> - strumento che ci permette di effettuare richieste di tipo GET e POST
 </ul>
 <h1><a id="user-content-autori" class="anchor" href="https://github.com/alexg99805/ProgettoOOP#autori" aria-hidden="true"></a>Autori</h1>
 <ul type="disc">
