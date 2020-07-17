@@ -57,6 +57,11 @@ Per eseguire le richieste GET o POST si può installare un API testing come Post
 </tr>
 <tr>
 <td>POST</td>
+<td>/stats</td>
+<td>restituisce statistiche quali il numero di occorrenti degli hashtag contenuti in ogni tweet per gli ultimi cento tweet, statistiche sul numero di tweet per giorno mese e anno, statistiche sui contenuti multimediali</td>
+</tr>
+<tr>
+<td>POST</td>
 <td>/stats?field=N</td>
 <td>restituisce statistiche quali la top N degli hashtag contenuti in ogni tweet per gli ultimi cento tweet, statistiche sul numero di tweet per giorno mese e anno, statistiche sui contenuti multimediali</td></td>
 </tr>
@@ -79,48 +84,38 @@ Per eseguire le richieste GET o POST si può installare un API testing come Post
 </tr>
 <tr>
 <td>Less</td>
-<td>{"RetweetCount" : { "Less" : 30}}</td>
+<td>{"Width" : { "Less" : 1000}}</td>
 <td>minore (valido per campi numerici)</td>
 </tr>
 <tr>
 <td>Included</td>
-<td>{"Mentions" : { "Included" : ["equipeprivacy"]}}</td>
+<td>{"Hashtag { "Included" : ["remotesensing"]}}</td>
 <td>trova una corrispondenza con i valori dell'array (valido per stringhe)</td>
 </tr>
 <tr>
 <td>NotIncluded</td>
-<td>{"Lang" : { "NotIncluded" : ["en"]}}</td>
+<td>{"Hashtag" : { "NotIncluded" : ["satellite"]}}</td>
 <td>non trova una corrispondenza con i valori dell'array (valido per stringhe)</td>
 </tr>
 <tr>
 <td>In</td>
-<td>{"Hashtag" : { "In" : [2,7]}}</td>
+<td>{"Height" : { "In" : [350,800]}}</td>
 <td>compreso tra (valido per campi numerici)</td>
 </tr>
 <tr>
 <td>Nin</td>
-<td>{"Hashtag" : { "Nin" : [2,5]}}</td>
+<td>{"Height" : { "Nin" : [100,620]}}</td>
 <td>non compreso tra (valido per campi numerici)</td>
 </tr>
 <tr>
-<td>Created</td>
-<td>{"User" : { "Created" : ["cybersec_feeds"]}}</td>
-<td>stampa tutti i tweet creati da un utente (valido per stringhe)</td>
+<td>After</td>
+<td>{"Date" : { "After" : ["2020-06-20"]}}</td>
+<td>stampa tutti i tweet postati dopo una certa data(formato data: yyyy-mm-dd)</td>
 </tr>
 <tr>
-<td>NotCreated</td>
-<td>{"User" : { "NotCreated" : ["cybersec_feeds"]}}</td>
-<td>stampa tutti i tweet non creati da un utente (valido per stringhe)</td>
-</tr>
-<tr>
-<td>Yes</td>
-<td>{"Mentions" : { "Yes" : []}}</td>
-<td>viene utilizzato per filtrare tutti quei tweet in cui sono presenti un'immagine o delle menzioni</td>
-</tr>
-<tr>
-<td>Not</td>
-<td>{"Image" : { "Not" : []}}</td>
-<td>viene utilizzato per filtrare tutti quei tweet in cui sono non presenti un'immagine o delle menzioni</td>
+<td>Before</td>
+<td>{"Date" : {  "Before"  : ["2020-12-03"]}}</td>
+<td>stampa tutti i tweet postati prima di una certa data(formato data: yyyy-mm-dd)</td>
 </tr>
 </tbody>
 </table>
@@ -162,7 +157,27 @@ Per eseguire le richieste GET o POST si può installare un API testing come Post
 
 <a href="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/statsdiagram.PNG" target="_blank" rel="noopener noreferrer"><img src="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/statsdiagram.PNG" alt="diagramma delle classi raffigurante il package stats" width="800px" height="530px" /></a>
 <h2><a id="user-content--chiamate-" class="anchor" href="https://github.com/alexg99805/ProgettoOOP#-chiamate-" aria-hidden="true"></a>Chiamate</h2>
-In questo punto esaminiamo nello specifico le chiamate che l'utente può effettuare utilizzando i diagrammi delle sequenze, i quali mostrano come interagiscono tra di loro gli oggetti delle varie classi e forniscono informazioni anche di tipo temporale, poiché le interazioni nel diagramma vengono disposte in ordine cronologico.
+In questo punto esaminiamo nello specifico le chiamate che l'utente può effettuare utilizzando i diagrammi delle sequenze, i quali mostrano come interagiscono tra di loro gli oggetti delle varie classi e forniscono informazioni anche di tipo temporale, poiché le interazioni nel diagramma vengono disposte in ordine cronologico.<ul>
+ 	<li><strong>Chiamata GET /metadata</strong></li>
+</ul>
+
+<a href="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/sequence1.PNG" target="_blank" rel="noopener noreferrer"><img src="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/sequence1.PNG" alt="Chiamata  GET metadata sequence diagram" width="440px" height="370px" /></a>
+<ul>
+ 	<li><strong>Chiamata GET /data</strong></li>
+</ul>
+<a href="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/sequence2.PNG" target="_blank" rel="noopener noreferrer"><img src="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/sequence2.PNG" alt="Chiamata GET data sequence diagram" width="440px" height="370px" /></a>
+<ul>
+ 	<li><strong>Chiamata POST /data</strong></li>
+</ul>
+<a href="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/sequence3.PNG" target="_blank" rel="noopener noreferrer"><img src="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/sequence3.PNG" alt="Chiamata POST data sequence diagram" width="880px" height="610px" /></a>
+<ul>
+ 	<li><strong>Chiamata GET /stats</strong></li>
+</ul>
+<a href="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/sequence4.PNG" target="_blank" rel="noopener noreferrer"><img src="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/sequence4.PNG" alt="Chiamata GET stats sequence diagram" width="440px" height="370px" /></a>
+<ul>
+ 	<li><strong>Chiamata POST /stats</strong></li>
+</ul>
+<a href="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/sequence5.PNG" target="_blank" rel="noopener noreferrer"><img src="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/sequence5.PNG" alt="Chiamata POST stats sequence diagram" width="440px" height="370px" /></a>
 
 <h1><a id="user-content-software-usufruiti" class="anchor" href="https://github.com/alexg99805/ProgettoOOP#software-usufruiti" aria-hidden="true"></a>Software usufruiti</h1>
 <ul>
