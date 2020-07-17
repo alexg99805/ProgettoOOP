@@ -119,6 +119,9 @@ Per eseguire le richieste GET o POST si può installare un API testing come Post
 </tr>
 </tbody>
 </table>
+<th><strong>N.B.</strong></th>
+Inoltre, è possibile concatenare più filtri utilizzando il comando "Type" che appunto ci permette di unire anche più di due campi.
+{ "Hashtag":{"Greater": 6}, "Date":{"Type":"and","After":["2020-07-14"]},"Width":{"Type":"or","Greater":1000 } }
 
 <h2><a id="user-content--struttura-del-progetto-" class="anchor" href="https://github.com/alexg99805/ProgettoOOP#-struttura-del-progetto-" aria-hidden="true"></a>Struttura del progetto</h2>
 <h3><a id="user-content-packages" class="anchor" href="https://github.com/alexg99805/ProgettoOOP#packages" aria-hidden="true"></a>Packages</h3>
