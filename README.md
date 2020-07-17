@@ -84,48 +84,38 @@ Per eseguire le richieste GET o POST si può installare un API testing come Post
 </tr>
 <tr>
 <td>Less</td>
-<td>{"RetweetCount" : { "Less" : 30}}</td>
+<td>{"Width" : { "Less" : 1000}}</td>
 <td>minore (valido per campi numerici)</td>
 </tr>
 <tr>
 <td>Included</td>
-<td>{"Mentions" : { "Included" : ["equipeprivacy"]}}</td>
+<td>{"Hashtag { "Included" : ["remotesensing"]}}</td>
 <td>trova una corrispondenza con i valori dell'array (valido per stringhe)</td>
 </tr>
 <tr>
 <td>NotIncluded</td>
-<td>{"Lang" : { "NotIncluded" : ["en"]}}</td>
+<td>{"Hashtag" : { "NotIncluded" : ["satellite"]}}</td>
 <td>non trova una corrispondenza con i valori dell'array (valido per stringhe)</td>
 </tr>
 <tr>
 <td>In</td>
-<td>{"Hashtag" : { "In" : [2,7]}}</td>
+<td>{"Height" : { "In" : [350,800]}}</td>
 <td>compreso tra (valido per campi numerici)</td>
 </tr>
 <tr>
 <td>Nin</td>
-<td>{"Hashtag" : { "Nin" : [2,5]}}</td>
+<td>{"Height" : { "Nin" : [100,620]}}</td>
 <td>non compreso tra (valido per campi numerici)</td>
 </tr>
 <tr>
-<td>Created</td>
-<td>{"User" : { "Created" : ["cybersec_feeds"]}}</td>
-<td>stampa tutti i tweet creati da un utente (valido per stringhe)</td>
+<td>After</td>
+<td>{"Date" : { "After" : ["2020-06-20"]}}</td>
+<td>stampa tutti i tweet postati dopo una certa data(formato data: yyyy-mm-dd)</td>
 </tr>
 <tr>
-<td>NotCreated</td>
-<td>{"User" : { "NotCreated" : ["cybersec_feeds"]}}</td>
-<td>stampa tutti i tweet non creati da un utente (valido per stringhe)</td>
-</tr>
-<tr>
-<td>Yes</td>
-<td>{"Mentions" : { "Yes" : []}}</td>
-<td>viene utilizzato per filtrare tutti quei tweet in cui sono presenti un'immagine o delle menzioni</td>
-</tr>
-<tr>
-<td>Not</td>
-<td>{"Image" : { "Not" : []}}</td>
-<td>viene utilizzato per filtrare tutti quei tweet in cui sono non presenti un'immagine o delle menzioni</td>
+<td>Before</td>
+<td>{"Date" : {  "Before"  : ["2020-12-03"]}}</td>
+<td>stampa tutti i tweet postati prima di una certa data(formato data: yyyy-mm-dd)</td>
 </tr>
 </tbody>
 </table>
