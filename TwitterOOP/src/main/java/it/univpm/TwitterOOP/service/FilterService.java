@@ -10,7 +10,7 @@ import it.univpm.TwitterOOP.model.Tweet;
 import it.univpm.TwitterOOP.service.JSONParse;
 import it.univpm.TwitterOOP.util.other.Filter;
 /**
- * rappresenta una classe che gestisce i filtraggi della timeline utente
+ * rappresenta una classe che gestisce i filtraggi della timeline
  * @author Davide Pacioni
  * @author Alex Giaccio
  *
