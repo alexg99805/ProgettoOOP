@@ -10,14 +10,14 @@ package it.univpm.TwitterOOP.model;
 
 public class NumeroHashtag {
 	
-	private int nHashtag;
-	private String hash;
+	private int numHashtag;
+	private String hashtag;
 
 	
-	public NumeroHashtag(int nHashtag,String hash) {
+	public NumeroHashtag(int numHashtag,String hashtag) {
 		super();
-		this.nHashtag = nHashtag;
-		this.hash = hash;
+		this.numHashtag = numHashtag;
+		this.hashtag = hashtag;
 	}
 
 	public NumeroHashtag() {
@@ -26,31 +26,31 @@ public class NumeroHashtag {
 	}
 
 	/**
-	 * @return nHashtag
+	 * @return numHashtag
 	 */
-	public int getnHashtag() {
-		return nHashtag;
+	public int getnumHashtag() {
+		return numHashtag;
 	}
 
 	/**
-	 * @param nHashtag
+	 * @param numHashtag
 	 */
-	public void setnHashtag(int nHashtag) {
-		this.nHashtag = nHashtag;
+	public void setnumHashtag(int numHashtag) {
+		this.numHashtag = numHashtag;
 	}
 
 	/**
 	 * @return l'hashtag
 	 */
 	public String getHashtag() {
-		return hash;
+		return hashtag;
 	}
 
 	/**
 	 * @param newHash
 	 */
 	public void setHashtag(String newHash) {
-		this.hash = newHash;
+		this.hashtag = newHash;
 	}
 	
 }

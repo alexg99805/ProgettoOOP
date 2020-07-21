@@ -19,7 +19,7 @@ public class Dimensions {
 	}
 
 	/**
-	 * @return l'altezza
+	 * @return altezza
 	 */
 	public long getHeight() {
 		return height;
@@ -33,7 +33,7 @@ public class Dimensions {
 	}
 
 	/**
-	 * @return la larghezza
+	 * @return larghezza
 	 */
 	public long getWidth() {
 		return width;

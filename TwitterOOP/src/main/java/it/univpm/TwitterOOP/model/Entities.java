@@ -3,9 +3,8 @@ package it.univpm.TwitterOOP.model;
 import java.util.ArrayList;
 
 /**
- * Classe contenente arraylist relativi ad hashtag, userMentions, url e immagini
+ * Classe contenente arraylist relativi ad hashtag ed immagini
  * @see Hashtag
- * @see urls
  * @see Image
  * @author Davide Pacioni
  * @author Alex Giaccio
@@ -14,7 +13,6 @@ import java.util.ArrayList;
 public class Entities {
 	
 	private ArrayList<Hashtag> hashtg = new ArrayList<Hashtag>();
-	private ArrayList<urls> url = new ArrayList<urls>();
 	private ArrayList<Image> immagini = new ArrayList<Image>();
 
 	
@@ -33,21 +31,6 @@ public class Entities {
 	 */
 	public void setHashtags(Hashtag newHashtag) {
 		hashtg.add(newHashtag);
-	}
-
-
-	/**
-	 * @return url
-	 */
-	public ArrayList<urls> getUrl() {
-		return this.url;
-	}
-
-	/**
-	 * @param newUrl 
-	 */
-	public void setUrl(urls newUrl) {
-		url.add(newUrl);
 	}
 
 	/**

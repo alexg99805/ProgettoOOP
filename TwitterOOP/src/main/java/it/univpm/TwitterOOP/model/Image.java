@@ -9,7 +9,7 @@ import java.util.ArrayList;
  * @author Alex Giaccio
  *
  */
-public class Image extends ID {
+public class Image {
 	
 	private String media_url;
 	private String type;
