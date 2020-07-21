@@ -25,8 +25,7 @@ import it.univpm.TwitterOOP.util.other.Filter;
     private static ArrayList<Tweet> tweets = JSONParse.ParseInformazioni();
     
     /*
-     * Permette di stabilire un oggetto di tipo Filter dalle classi presenti nel pacchetto
-     * it.univpm.TwitterOOP.util.filter. indicando i parametri di filtraggio che si desiderano
+     * Permette di stabilire un oggetto di tipo Filter indicando i parametri di filtraggio che si desiderano
 	 * @param     column campo dove si vuol eseguire il filtraggio
 	 * @param     operator tipo selezionato del filtraggio
 	 * @param     param parametro ingresso necessario per il filtro scelto

@@ -8,7 +8,7 @@ import it.univpm.TwitterOOP.model.Tweet;
 /**
  * Questa interfaccia utilizzata in TweetServiceImpl
  * Viene utilizzata per specificare due metodi che permettono di visualizzare i metadata e la timeline
- * @see TweetServiceImpl
+ * @see ImplemenTweet
  * @see Tweet
  * @see Metadata
  * @author Davide Pacioni

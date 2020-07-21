@@ -11,9 +11,8 @@ import it.univpm.TwitterOOP.model.*;
 
 /**
  * Questa classe permette di fare il parsing dei dati del file JSON che vengono scaricati nella classe Database
- * @see DatabaseClass
+ * @see Database
  * @see Tweet
- * 
  * @author Davide Pacioni
  * @author Alex Giaccio
  *
@@ -44,7 +43,6 @@ public class JSONParse {
 						
 						e.printStackTrace();
 					}
-					tw.setId((long) obj1.get("id"));
 					tw.setText((String) obj1.get("full_text"));
 					tw.setRetweet_count((long) obj1.get("retweet_count"));
 					tw.setLang((String) obj1.get("lang"));
@@ -60,26 +58,13 @@ public class JSONParse {
 						hashtag.setText((String) obj2.get("text"));
 						en.setHashtags(hashtag);
 					}
-					
-					
-					urls Url;
-					JSONArray URL = (JSONArray) entities.get("urls");
-					
-					for(int j=0; j<URL.size(); j++) {					
-						Url = new urls();
-						JSONObject obj4 = (JSONObject) URL.get(j);
-						Url.setUrl((String) obj4.get("url"));
-						Url.setExpandedUrl((String) obj4.get("expanded_url"));
-						en.setUrl(Url);
-					}
-					
+
 					Image image;
 					if(entities.containsKey("media")) {
 						JSONArray media = (JSONArray) entities.get("media");
 						for(int j = 0; j<media.size(); j++) {
 							image = new Image();
 		 					JSONObject obj5 = (JSONObject) media.get(j);
-							image.setId((long) obj5.get("id"));
 							image.setMedia_url((String) obj5.get("media_url"));
 							image.setType((String) obj5.get("type"));
 							
@@ -95,19 +80,7 @@ public class JSONParse {
 							en.setImages(image);
 						}
 					}
-
 					tw.setEntities(en);
-					
-					User user = new User();
-					JSONObject USER = (JSONObject) obj1.get("user");
-					user.setId((long) USER.get("id"));
-					user.setName((String) USER.get("name"));
-					user.setScreenName((String) USER.get("screen_name"));
-					user.setDescription((String) USER.get("description"));
-					user.setFollowerCount((long) USER.get("followers_count"));
-					tw.setUsers(user);	
-					
-					
 					Timeline.add(tw);
 	
 			}			

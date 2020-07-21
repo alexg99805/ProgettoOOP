@@ -12,8 +12,7 @@ import it.univpm.TwitterOOP.service.FilterService;
 import it.univpm.TwitterOOP.util.other.Filter;
  
 /**
- * Rappresenta la classe che effettua il parsing ricorsivo su un 
- * oggetto di tipo JSON
+ * Rappresenta la classe che effettua il parsing ricorsivo su un oggetto di tipo JSON
  * @author Davide Pacioni
  * @author Alex Giaccio
  * @see Tweet
@@ -23,7 +22,7 @@ import it.univpm.TwitterOOP.util.other.Filter;
 public class JsonParser {
 	
 	/**
-	 * Effettua il parsing piÃ¹ lontano, selezionando column
+	 * Effettua il parsing più lontano, selezionando column
 	 * e un oggetto, che contiene il filtro da applicare al dataset
 	 * @param filter contiene il JSON con le informazioni per il filtraggio
 	 * @return Arraylist di Tweet filtrato
@@ -56,11 +55,11 @@ public class JsonParser {
 			}
 	
 	/**
-	 * Effettua il parsing piÃ¹ vicino selezionando operatore e parametro
+	 * Effettua il parsing più vicino selezionando operatore e parametro
 	 * e fa inizializzare il filtro che corrisponde a quel che viene richiesto
-	 * @param column Ã¨ il campo su cui si vuole effettuare il filtraggio.
+	 * @param column è il campo su cui si vuole effettuare il filtraggio.
 	 * @param filterParam contiene i parametri di filtraggio.
-	 * @param previousArray Ã¨ l'ArrayList ottenuto dai filtraggi effettuati prima
+	 * @param previousArray ArrayList ottenuto dai filtraggi effettuati prima
 	 * @return arraylist di tweet filtrato
 	 * @throws InternalGeneralException se vengono registrate anomalie iternamente al server
 	 * @throws FilterNotFoundException se vengono fuori errori legati al filtro not found
@@ -76,7 +75,7 @@ public class JsonParser {
 		for(Map.Entry<String, Object> entry: result.entrySet()) {
 			String operator= entry.getKey();
 			Object value=entry.getValue();
-		    // Se operatore Ã¨ Type allora guarda se il valore Ã¨ 'and' o 'or'
+		    // Se l'operatore è Type allora guarda se il valore è 'and' o 'or'
 		    // lancia il metodo runfilter corrispondente
 			if(operator.equals("type") || operator.equals("Type")) {
 				if(operator.equals("type")) {
