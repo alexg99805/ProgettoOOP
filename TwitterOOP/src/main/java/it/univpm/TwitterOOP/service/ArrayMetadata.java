@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import it.univpm.TwitterOOP.model.Metadata;
 
 /**
- * Questa classe permette di visualizzare un intero array contenente tutti i dettagli
+ * Questa classe ci permette di visualizzare un intero array contenente tutti i dettagli
  * riguardanti tutti i campi del tweet analizzato
  * @author Davide Pacioni
  * @author Alex Giaccio

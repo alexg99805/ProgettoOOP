@@ -10,7 +10,7 @@ import it.univpm.TwitterOOP.db.Database;
 import it.univpm.TwitterOOP.model.*;
 
 /**
- * Questa classe permette di fare il parsing dei dati del file JSON che vengono scaricati nella classe Database
+ * Questa classe ci permette di fare il parsing dei dati del file JSON che vengono scaricati nella classe Database
  * @see Database
  * @see Tweet
  * @author Davide Pacioni
