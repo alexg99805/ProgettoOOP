@@ -61,17 +61,6 @@ public class JSONParse {
 						en.setHashtags(hashtag);
 					}
 					
-					UserMentions userMentions;
-					JSONArray UserMentions = (JSONArray) entities.get("user_mentions");
-						
-					for(int j=0; j<UserMentions.size(); j++) {					
-						userMentions = new UserMentions();
-						JSONObject obj3 = (JSONObject) UserMentions.get(j);
-						userMentions.setScreenName((String) obj3.get("screen_name"));
-						userMentions.setName((String) obj3.get("name"));
-						userMentions.setId((long) obj3.get("id"));
-						en.setMentions(userMentions);
-					}
 					
 					urls Url;
 					JSONArray URL = (JSONArray) entities.get("urls");
