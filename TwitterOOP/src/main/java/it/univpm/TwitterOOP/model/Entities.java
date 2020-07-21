@@ -5,7 +5,6 @@ import java.util.ArrayList;
 /**
  * Classe contenente arraylist relativi ad hashtag, userMentions, url e immagini
  * @see Hashtag
- * @see UserMentions
  * @see urls
  * @see Image
  * @author Davide Pacioni
@@ -15,7 +14,6 @@ import java.util.ArrayList;
 public class Entities {
 	
 	private ArrayList<Hashtag> hashtg = new ArrayList<Hashtag>();
-	private ArrayList<UserMentions> menzioni = new ArrayList<UserMentions>();
 	private ArrayList<urls> url = new ArrayList<urls>();
 	private ArrayList<Image> immagini = new ArrayList<Image>();
 
