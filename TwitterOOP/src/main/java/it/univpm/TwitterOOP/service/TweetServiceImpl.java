@@ -12,7 +12,7 @@ import it.univpm.TwitterOOP.model.Metadata;
 import it.univpm.TwitterOOP.model.Tweet;
 
 /**
- * Questa classe ci consente di realizzare due HashMap dove vengono istanziati due ArrayList di tipo Tweet e metadata. 
+ * Questa classe consente di realizzare due HashMap dove vengono istanziati due ArrayList di tipo Tweet e metadata. 
  * Successivamente vengono creati due metodi di TweetService per visualizzare il
  * pacchetto dove all'interno sono contenuti i relativi tweet e/o metadati
  * 
