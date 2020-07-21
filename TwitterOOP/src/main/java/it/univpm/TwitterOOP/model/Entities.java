@@ -37,19 +37,6 @@ public class Entities {
 		hashtg.add(newHashtag);
 	}
 
-	/**
-	 * @return menzioni
-	 */
-	public ArrayList<UserMentions> getMentions() {
-		return this.menzioni;
-	}
-
-	/**
-	 * @param newMention
-	 */
-	public void setMentions(UserMentions newMention) {
-		menzioni.add(newMention);
-	}
 
 	/**
 	 * @return url
