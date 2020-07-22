@@ -43,9 +43,6 @@ public class JSONParse {
 						
 						e.printStackTrace();
 					}
-					tw.setText((String) obj1.get("full_text"));
-					tw.setRetweet_count((long) obj1.get("retweet_count"));
-					tw.setLang((String) obj1.get("lang"));
 					
 					Hashtag hashtag;
 					Entities en = new Entities();
@@ -65,9 +62,6 @@ public class JSONParse {
 						for(int j = 0; j<media.size(); j++) {
 							image = new Image();
 		 					JSONObject obj5 = (JSONObject) media.get(j);
-							image.setMedia_url((String) obj5.get("media_url"));
-							image.setType((String) obj5.get("type"));
-							
 							Dimensions dimensions;
 							JSONObject Size = (JSONObject) obj5.get("sizes");
 							JSONObject dim = (JSONObject) Size.get("medium");
