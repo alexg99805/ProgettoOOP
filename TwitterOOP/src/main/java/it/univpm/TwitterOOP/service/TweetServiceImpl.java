@@ -39,7 +39,7 @@ public class TweetServiceImpl implements TweetService {
 			ArrayList<Metadata> metadt = ArrayMetadata.getArrayMetadata();
 			for (int i = 0; i < metadt.size(); i++) {
 				Metadata metadt1 = metadt.get(i);
-				metadata.put(metadt1.getAlias(), metadt1);
+				metadata.put(metadt1.getField(), metadt1);
 			}
 		} catch (Exception e) {
 			e.printStackTrace();
