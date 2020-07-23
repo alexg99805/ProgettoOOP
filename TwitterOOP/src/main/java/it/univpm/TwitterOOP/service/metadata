@@ -60,3 +60,4 @@
         "description": "lingua in cui il tweet è stato twittato",
         "var_type": "String"
     }
+    ]
