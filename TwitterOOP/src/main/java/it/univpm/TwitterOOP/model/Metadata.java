@@ -1,7 +1,7 @@
 package it.univpm.TwitterOOP.model;
 
 /**
- * Questa classe è utilizzata per descrivere ogni campo contenuto nel tweet
+ * Questa classe ï¿½ utilizzata per descrivere ogni campo contenuto nel tweet
  * @author Davide Pacioni
  * @author Alex Giaccio
  *
@@ -22,7 +22,7 @@ public class Metadata {
 	 */
 	public Metadata(String field, String description, String var_type) {
 		super();
-		this.fied = field;
+		this.field = field;
 		this.description = description ;
 		this.var_type = var_type;
 	}
