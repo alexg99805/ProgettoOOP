@@ -11,7 +11,7 @@ import org.json.simple.parser.ParseException;
  *
  */
 
-public class Tweet{
+public class Tweet extends ID{
 	
 	private CreationDate created_at;
 	private String testo;
