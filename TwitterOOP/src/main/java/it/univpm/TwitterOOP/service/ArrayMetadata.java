@@ -16,7 +16,7 @@ import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 
 /**
- * Questa classe ci permette di visualizzare un intero array contenente tutti i dettagli
+ * Questa classe permette di visualizzare un intero array contenente tutti i dettagli
  * riguardanti tutti i campi del tweet analizzato
  * @author Davide Pacioni
  * @author Alex Giaccio
