@@ -39,7 +39,7 @@ public class ArrayMetadata {
            
             //Iterate over employee array
             file_metadata.forEach(single_metadata -> addMetadata((JSONObject) single_metadata));
-            return metadata;
+            
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {
@@ -47,6 +47,7 @@ public class ArrayMetadata {
         } catch (ParseException e) {
             e.printStackTrace();
         }
+        return metadata;
     }
 
  
