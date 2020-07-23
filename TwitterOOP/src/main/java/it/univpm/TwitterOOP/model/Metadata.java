@@ -1,7 +1,7 @@
 package it.univpm.TwitterOOP.model;
 
 /**
- * Questa classe viene utilizzata per descrivere ogni campo contenuto nel tweet
+ * Questa classe è utilizzata per descrivere ogni campo contenuto nel tweet
  * @author Davide Pacioni
  * @author Alex Giaccio
  *
