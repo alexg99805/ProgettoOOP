@@ -9,22 +9,22 @@ package it.univpm.TwitterOOP.model;
 
 public class Metadata {
 	
-	private String alias;
-	private String sourceField;
-	private String type;
+	private String field;
+	private String description;
+	private String var_type;
 	
 	
 
 	/**
-	 * @param alias nome campo
-	 * @param sourceField descrizione campo
-	 * @param type  tipo campo
+	 * @param field nome campo
+	 * @param description descrizione campo
+	 * @param var_type  tipo campo
 	 */
-	public Metadata(String alias, String sourceField, String type) {
+	public Metadata(String field, String description, String var_type) {
 		super();
-		this.alias = alias;
-		this.sourceField = sourceField;
-		this.type = type;
+		this.fied = field;
+		this.description = description ;
+		this.var_type = var_type;
 	}
 
 
@@ -37,42 +37,42 @@ public class Metadata {
 	 * 
 	 * @return nome campo
 	 */
-	public String getAlias() {
-		return alias;
+	public String getField() {
+		return field;
 	}
 
 	/**
-	 * @param alias 
+	 * @param field 
 	 */
-	public void setAlias(String alias) {
-		this.alias = alias;
+	public void setField(String field) {
+		this.field = field;
 	}
 
 	/**
-	 * @return sourceField
+	 * @return description 
 	 */
-	public String getSourceField() {
-		return sourceField;
+	public String getDescription () {
+		return description ;
 	}
 
 	/**
-	 * @param sourceField 
+	 * @param description 
 	 */
-	public void setSourceField(String sourceField) {
-		this.sourceField = sourceField;
+	public void setDescription (String description ) {
+		this.description = description;
 	}
 
 	/**
-	 * @return type
+	 * @return var_type
 	 */
-	public String getType() {
-		return type;
+	public String getVar_type() {
+		return var_type;
 	}
 
 	/**
 	 * @param type
 	 */
-	public void setType(String type) {
-		this.type = type;
+	public void setVar_type(String var_type) {
+		this.var_type = var_type;
 	}
 }
