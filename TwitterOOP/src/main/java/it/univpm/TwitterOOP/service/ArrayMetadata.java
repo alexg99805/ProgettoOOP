@@ -16,7 +16,7 @@ import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 
 /**
- * Questa classe permette di visualizzare un intero array contenente tutti i dettagli
+ * Questa classe ci permette di visualizzare un intero array contenente tutti i dettagli
  * riguardanti tutti i campi del tweet analizzato
  * @author Davide Pacioni
  * @author Alex Giaccio
@@ -32,7 +32,7 @@ public class ArrayMetadata {
 	public static ArrayList<Metadata> getArrayMetadata() {
         JSONParser jsonParser = new JSONParser();
          
-        try(FileReader reader = new FileReader("metadata"))
+        try(FileReader reader = new FileReader("metadata.json"))
         {
             Object obj = jsonParser.parse(reader);
             JSONArray file_metadata = (JSONArray) obj;
