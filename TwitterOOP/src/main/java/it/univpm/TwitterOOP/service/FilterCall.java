@@ -45,22 +45,22 @@ public class FilterCall {
 				Class<?> scegliClasse = Class.forName("it.univpm.TwitterOOP.util.filter.Filter" + chiave + parametro);
 				Object istanzaCostruttore = scegliClasse.getDeclaredConstructor(Object.class).newInstance(keyMap.get(parametro));
 				Method metodoDaUsare = scegliClasse.getMethod("filter", Tweet.class);
-		
-				// filtroDaUsare = metodoDaUsare.invoke(istanzaCostruttore, tweetDaAnalizzare);
+				
 				//ora devo scorrere l'arrayList dei tweet non filtrato e controllare elemento per elemento che il tweet corrisponda alla condizione posta dal filtro (restituisce un boolean)
 				for(int j=0; j<fullData.size(); j++) {
 					if((boolean) metodoDaUsare.invoke(istanzaCostruttore, fullData.get(j))) {
 						filteredData.add(fullData.get(j));
 					}
 				}
-			} else {
-				parametro = listOfParam.get(1);
-				String tipoUnione = keyMap.get(listOfParam.get(0)).toString();
+			} else {//altrimenti ho il type e devo controllare se ho un'unione di tipo and/or
+				parametro = listOfParam.get(1); // prendo il parametro
+				String tipoUnione = keyMap.get(listOfParam.get(0)).toString(); //and o or
 				
 				Class<?> scegliClasse = Class.forName("it.univpm.TwitterOOP.util.filter.Filter" + chiave + parametro);
 				Object istanzaCostruttore = scegliClasse.getDeclaredConstructor(Object.class).newInstance(keyMap.get(parametro));
 				Method metodoDaUsare = scegliClasse.getMethod("filter", Tweet.class);
-				System.out.println(tipoUnione); // <-- mi restituisce "Type"
+				
+				//tipo and: scorro i dati per controllare se quelli che già ho corrispondano anche all ulteriore filtro
 				if(tipoUnione.equals("and")) {
 					for(int j=0; j<filteredData.size(); j++) {
 						if(!(boolean) metodoDaUsare.invoke(istanzaCostruttore, filteredData.get(j))) {
@@ -68,8 +68,8 @@ public class FilterCall {
 						}
 					}
 				}
+				//scorro l'arraylist originario e aggiungo quelli che corrispondono al filtro all arraylist già filtrato
 				if(tipoUnione.equals("or")) {
-					System.out.println("OR");
 					for(int j=0; j<fullData.size(); j++) {
 						if((boolean) metodoDaUsare.invoke(istanzaCostruttore, fullData.get(j))) {
 							filteredData.add(fullData.get(j));
@@ -77,9 +77,7 @@ public class FilterCall {
 					}
 				}
 			}
-			// adesso ho sia la chiave sia il parametro. mi rimane da controllare se è
-			// presente il type e prendere il valore associato
-			// System.out.println(chiave + " : " +parametro);
+
 
 		}
 
