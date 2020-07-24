@@ -32,7 +32,7 @@ public class ArrayMetadata {
 	public static ArrayList<Metadata> getArrayMetadata() {
         JSONParser jsonParser = new JSONParser();
          
-        try(FileReader reader = new FileReader("metadata"))
+        try(FileReader reader = new FileReader("metadata.json"))
         {
             Object obj = jsonParser.parse(reader);
             JSONArray file_metadata = (JSONArray) obj;
