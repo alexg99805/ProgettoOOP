@@ -21,7 +21,7 @@ public class FilterCall {
 		ArrayList<Tweet> filteredData = new ArrayList<Tweet>();
 		ArrayList<Tweet> fullData = JSONParse.ParseInformazioni();
 		String chiave = "";
-		String parametro = "";
+		Object parametro;
 
 		// thank you stackoverflow <3
 		// https://stackoverflow.com/questions/443499/convert-json-to-map
@@ -40,11 +40,12 @@ public class FilterCall {
 			Filter filtroDaUsare;
 			if (listOfParam.size() == 1) { // se è uguale ad uno non c'è il "Type"
 				parametro = listOfParam.get(0);
-				// System.out.println(keyMap.get(parametro)); // <-- questo stampa il VALORE
+				System.out.println(keyMap.get(parametro)); // <-- questo stampa il VALORE
 				// associato al PARAMETRO
 				Class<?> scegliClasse = Class.forName("it.univpm.TwitterOOP.util.filter.Filter" + chiave + parametro);
-				Object istanzaCostruttore = scegliClasse.getDeclaredConstructor().newInstance();
+				Object istanzaCostruttore = scegliClasse.getDeclaredConstructor(Object.class).newInstance(keyMap.get(parametro));
 				Method metodoDaUsare = scegliClasse.getMethod("filter", Tweet.class);
+		
 				// filtroDaUsare = metodoDaUsare.invoke(istanzaCostruttore, tweetDaAnalizzare);
 				//ora devo scorrere l'arrayList dei tweet non filtrato e controllare elemento per elemento che il tweet corrisponda alla condizione posta dal filtro (restituisce un boolean)
 				for(int j=0; j<fullData.size(); j++) {
@@ -54,11 +55,12 @@ public class FilterCall {
 				}
 			} else {
 				parametro = listOfParam.get(1);
-				String tipoUnione = listOfParam.get(0);
+				String tipoUnione = keyMap.get(listOfParam.get(0)).toString();
 				
 				Class<?> scegliClasse = Class.forName("it.univpm.TwitterOOP.util.filter.Filter" + chiave + parametro);
-				Object istanzaCostruttore = scegliClasse.getDeclaredConstructor().newInstance();
+				Object istanzaCostruttore = scegliClasse.getDeclaredConstructor(Object.class).newInstance(keyMap.get(parametro));
 				Method metodoDaUsare = scegliClasse.getMethod("filter", Tweet.class);
+				System.out.println(tipoUnione); // <-- mi restituisce "Type"
 				if(tipoUnione.equals("and")) {
 					for(int j=0; j<filteredData.size(); j++) {
 						if(!(boolean) metodoDaUsare.invoke(istanzaCostruttore, filteredData.get(j))) {
@@ -67,6 +69,7 @@ public class FilterCall {
 					}
 				}
 				if(tipoUnione.equals("or")) {
+					System.out.println("OR");
 					for(int j=0; j<fullData.size(); j++) {
 						if((boolean) metodoDaUsare.invoke(istanzaCostruttore, fullData.get(j))) {
 							filteredData.add(fullData.get(j));

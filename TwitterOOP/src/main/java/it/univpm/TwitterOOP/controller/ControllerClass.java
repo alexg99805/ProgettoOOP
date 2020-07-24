@@ -1,5 +1,6 @@
 package it.univpm.TwitterOOP.controller;
 
+import java.lang.reflect.InvocationTargetException;
 import java.util.ArrayList;
 import java.util.HashMap;
 
@@ -39,8 +40,8 @@ import it.univpm.TwitterOOP.util.stats.Statistiche;
 @RestController
 public class ControllerClass {
 	/*
-	 * Autowired consente la creazione di un'istanza del
-	 * nostro servizio che sarà possibile utilizzare per ogni operazione
+	 * Autowired consente la creazione di un'istanza del nostro servizio che sarà
+	 * possibile utilizzare per ogni operazione
 	 */
 	@Autowired
 	TweetService tweetService;
@@ -48,7 +49,7 @@ public class ControllerClass {
 	/**
 	 * Richiesta GET /data
 	 * 
-	 * @return ArrayList di Tweet 
+	 * @return ArrayList di Tweet
 	 */
 	@RequestMapping(value = "/data", method = RequestMethod.GET)
 	public ResponseEntity<Object> getTweets() {
@@ -71,15 +72,21 @@ public class ControllerClass {
 	 * @param filter filtro o filtri che devono essere inseriti nel corpo
 	 * @return un ArrayList di tweet filtrato
 	 * @throws InternalParseException
-	 * @throws FilterNotFoundException
-	 * @throws FilterIllegalArgumentException
 	 * @throws InternalGeneralException
+	 * @throws SecurityException
+	 * @throws NoSuchMethodException
+	 * @throws InvocationTargetException
+	 * @throws IllegalArgumentException
+	 * @throws IllegalAccessException
+	 * @throws InstantiationException
+	 * @throws ClassNotFoundException
 	 * 
 	 */
 
 	@RequestMapping(value = "/data", method = RequestMethod.POST)
 	public ResponseEntity<Object> getFilteredWithPost(@RequestBody Object filter) throws InternalParseException,
-			FilterNotFoundException, FilterIllegalArgumentException, InternalGeneralException {
+			InternalGeneralException, ClassNotFoundException, InstantiationException, IllegalAccessException,
+			IllegalArgumentException, InvocationTargetException, NoSuchMethodException, SecurityException {
 		return new ResponseEntity<>(FilterCall.callFilter(filter), HttpStatus.CREATED);
 	}
 

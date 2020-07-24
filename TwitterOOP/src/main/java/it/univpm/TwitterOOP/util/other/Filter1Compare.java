@@ -15,7 +15,7 @@ public class Filter1Compare{
 	 * @throws IllegalArgumentException viene lanciata se viene inserito il tipo sbagliato
 	*/
 	public Filter1Compare(Object paramFilter){
-		
+		System.out.println(paramFilter);
 		if(paramFilter instanceof Integer ) { 
 			this.paramFilter =(Integer)paramFilter;
 		}else {
