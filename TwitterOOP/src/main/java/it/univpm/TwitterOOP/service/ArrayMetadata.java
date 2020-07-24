@@ -53,7 +53,7 @@ public class ArrayMetadata {
  
     private static void addMetadata(JSONObject single_metadata) 
     {
-        Metadata x = new Metadata(single_metadata.get("field"), single_metadata.get("description"), single_metadata.get("var_type"));
+        Metadata x =new metadata(single_metadata.get("field").toString(), single_metadata.get("description").toString(), single_metadata.get("var_type").toString() );
         metadata.add(x);
 	}
 }
