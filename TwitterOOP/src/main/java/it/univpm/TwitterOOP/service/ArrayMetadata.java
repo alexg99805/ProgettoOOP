@@ -6,6 +6,7 @@ import it.univpm.TwitterOOP.model.Metadata;
 import it.univpm.TwitterOOP.model.Metadata;
 
 import java.util.ArrayList;
+import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
@@ -31,9 +32,10 @@ public class ArrayMetadata {
 	 */
 	public static ArrayList<Metadata> getArrayMetadata() {
         JSONParser jsonParser = new JSONParser();
-         
-        try(FileReader reader = new FileReader("metadata.json"))
+        
+        try
         {
+        	FileReader reader = new FileReader("metadata.json");
             Object obj = jsonParser.parse(reader);
             JSONArray file_metadata = (JSONArray) obj;
            
