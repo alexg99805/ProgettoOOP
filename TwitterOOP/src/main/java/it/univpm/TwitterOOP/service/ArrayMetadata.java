@@ -3,10 +3,7 @@ package it.univpm.TwitterOOP.service;
 import java.util.ArrayList;
 
 import it.univpm.TwitterOOP.model.Metadata;
-import it.univpm.TwitterOOP.model.Metadata;
 
-import java.util.ArrayList;
-import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
