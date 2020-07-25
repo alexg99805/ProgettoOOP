@@ -22,7 +22,6 @@ import it.univpm.TwitterOOP.exception.FilterIllegalArgumentException;
 import it.univpm.TwitterOOP.exception.FilterNotFoundException;
 import it.univpm.TwitterOOP.exception.InternalGeneralException;
 import it.univpm.TwitterOOP.exception.StatsNotFoundException;
-import it.univpm.TwitterOOP.model.NumeroHashtag;
 import it.univpm.TwitterOOP.model.Tweet;
 import it.univpm.TwitterOOP.service.TweetService;
 import it.univpm.TwitterOOP.util.stats.Statistiche;

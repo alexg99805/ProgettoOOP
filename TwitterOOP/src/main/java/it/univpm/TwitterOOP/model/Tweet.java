@@ -14,11 +14,8 @@ import org.json.simple.parser.ParseException;
 public class Tweet extends ID{
 	
 	private CreationDate created_at;
-	private String testo;
 	private ArrayList<Entities> entities = new ArrayList<Entities>();
-	private long contaretw;
-	private String language;
-	
+
 	
 	public Tweet() {
 		super();
@@ -42,35 +39,6 @@ public class Tweet extends ID{
 	}
 
 	/**
-	 * @return testo
-	 */
-	public String getText() {
-		return testo;
-	}
-
-	/**
-	 * @param text 
-	 */
-	public void setText(String text) {
-		this.testo = text;
-	}	
-
-	/**
-	 * @return contaretw
-	 */
-	public long getRetweet_count() {
-		return contaretw;
-	}
-
-	/**
-	 * @param retweet_count
-	 */
-	public void setRetweet_count(long retweet_count) {
-		this.contaretw = retweet_count;
-	}
-	
-
-	/**
 	 * @return entities
 	 */
 	public ArrayList<Entities> getEntities() {
@@ -82,21 +50,6 @@ public class Tweet extends ID{
 	 */
 	public void setEntities(Entities newEntities) {
 		entities.add(newEntities);
-	}
-
-	
-	/**
-	 * @return language
-	 */
-	public String getLang() {
-		return language;
-	}
-
-	/**
-	 * @param lang
-	 */
-	public void setLang(String lang) {
-		this.language = lang;
 	}
 
 }

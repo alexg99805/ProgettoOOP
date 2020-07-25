@@ -3,7 +3,6 @@ package it.univpm.TwitterOOP.util.stats;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-import it.univpm.TwitterOOP.model.NumeroHashtag;
 import it.univpm.TwitterOOP.model.Tweet;
 import it.univpm.TwitterOOP.service.JSONParse;
 
