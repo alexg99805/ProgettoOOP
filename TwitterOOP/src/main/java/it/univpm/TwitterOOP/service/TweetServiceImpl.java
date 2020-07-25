@@ -23,18 +23,15 @@ import it.univpm.TwitterOOP.model.Tweet;
 @Service
 public class TweetServiceImpl implements TweetService {
 
-	private Map<Long, Tweet> timeline = new HashMap<>();
 	private Map<String, Metadata> metadata = new HashMap<>();
-
+	private ArrayList<Tweet> tweets = new ArrayList<Tweet>();
+	
 	// riempimento delle HashMap
 	public TweetServiceImpl() {
 		super();
 		try {
-			ArrayList<Tweet> timeln = JSONParse.ParseInformazioni();
-			for (int i = 0; i < timeln.size(); i++) {
-				Tweet timeln1 = timeln.get(i);
-				timeline.put(timeln1.getId(), timeln1);
-			}
+			tweets = JSONParse.ParseInformazioni();
+			
 
 			ArrayList<Metadata> metadt = ArrayMetadata.getArrayMetadata();
 			for (int i = 0; i < metadt.size(); i++) {
@@ -50,8 +47,8 @@ public class TweetServiceImpl implements TweetService {
 	 * @return un pacchetto di Tweet
 	 */
 	@Override
-	public Collection<Tweet> getTweet() {
-		return timeline.values();
+	public ArrayList<Tweet> getTweet() {
+		return tweets;
 	}
 
 	/**

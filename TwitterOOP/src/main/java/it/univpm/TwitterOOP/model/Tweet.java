@@ -11,7 +11,7 @@ import org.json.simple.parser.ParseException;
  *
  */
 
-public class Tweet extends ID{
+public class Tweet {
 	
 	private CreationDate created_at;
 	private ArrayList<Entities> entities = new ArrayList<Entities>();
