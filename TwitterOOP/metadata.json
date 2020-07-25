@@ -8,16 +8,8 @@
         "description": "data e ora in cui il tweet è stato pubblicato",
         "var_type": "CreationDate"
     },{
-        "field": "text",
-        "description": "corpo del tweet",
-        "var_type": "String"
-    },{
         "field": "entities",
         "description": "ulteriori array in riferimento agli hashtag e alle immagini",
-        "var_type": "ArrayList"
-    },{
-        "field": "idhashtags",
-        "description": "hashtag presenti nel tweet",
         "var_type": "ArrayList"
     },{
         "field": "text",
@@ -50,14 +42,6 @@
     },{
         "field": "resize",
         "description": "ridimensionamento immagini senza modificarle",
-        "var_type": "String"
-    },{
-        "field": "contaretw",
-        "description": "num volte in cui il tweet è stato repostato dagli altri utenti",
-        "var_type": "Long"
-    },{
-        "field": "lang",
-        "description": "lingua in cui il tweet è stato twittato",
         "var_type": "String"
     }
   ]
