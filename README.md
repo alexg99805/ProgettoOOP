@@ -129,7 +129,7 @@ Inoltre, è possibile concatenare più filtri utilizzando il comando "Type" che 
 <ul>
  	<li><strong>package it.univpm.TwitterOOP.controller;</strong></li>
 </ul>
-<a href="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/Schermata%20del%202020-07-26%2018-51-53.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/Schermata%20del%202020-07-26%2018-51-53.png" alt="diagramma delle classi raffigurante il package controller" width="500px" height="500px" /></a>
+<a href="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/controller.jpeg" target="_blank" rel="noopener noreferrer"><img src="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/controller.jpeg" alt="diagramma delle classi raffigurante il package controller" width="500px" height="500px" /></a>
 <ul>
  	<li><strong>package it.univpm.TwitterOOP.db;</strong></li>
 </ul>
@@ -163,23 +163,23 @@ In questo punto esaminiamo nello specifico le chiamate che l'utente può effettu
  	<li><strong>Chiamata GET /metadata</strong></li>
 </ul>
 
-<a href="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/sequence1.PNG" target="_blank" rel="noopener noreferrer"><img src="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/sequence1.PNG" alt="Chiamata  GET metadata sequence diagram" width="440px" height="370px" /></a>
+<a href="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/getmetadata.jpeg" target="_blank" rel="noopener noreferrer"><img src="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/getmetadata.jpeg" alt="Chiamata  GET metadata sequence diagram" width="440px" height="370px" /></a>
 <ul>
  	<li><strong>Chiamata GET /data</strong></li>
 </ul>
-<a href="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/sequence2.PNG" target="_blank" rel="noopener noreferrer"><img src="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/sequence2.PNG" alt="Chiamata GET data sequence diagram" width="440px" height="370px" /></a>
+<a href="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/getdata.jpeg" target="_blank" rel="noopener noreferrer"><img src="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/getdata.jpeg" alt="Chiamata GET data sequence diagram" width="440px" height="370px" /></a>
 <ul>
  	<li><strong>Chiamata POST /data</strong></li>
 </ul>
-<a href="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/sequence3.PNG" target="_blank" rel="noopener noreferrer"><img src="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/sequence3.PNG" alt="Chiamata POST data sequence diagram" width="880px" height="610px" /></a>
+<a href="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/postdata.PNG" target="_blank" rel="noopener noreferrer"><img src="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/postdata.PNG" alt="Chiamata POST data sequence diagram" width="880px" height="610px" /></a>
 <ul>
  	<li><strong>Chiamata GET /stats</strong></li>
 </ul>
-<a href="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/sequence4.PNG" target="_blank" rel="noopener noreferrer"><img src="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/sequence4.PNG" alt="Chiamata GET stats sequence diagram" width="440px" height="370px" /></a>
+<a href="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/getstats.jpeg" target="_blank" rel="noopener noreferrer"><img src="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/getmetadata.jpeg" alt="Chiamata GET stats sequence diagram" width="440px" height="370px" /></a>
 <ul>
  	<li><strong>Chiamata POST /stats</strong></li>
 </ul>
-<a href="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/sequence5.PNG" target="_blank" rel="noopener noreferrer"><img src="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/sequence5.PNG" alt="Chiamata POST stats sequence diagram" width="440px" height="370px" /></a>
+<a href="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/poststats.PNG" target="_blank" rel="noopener noreferrer"><img src="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/poststats.PNG" alt="Chiamata POST stats sequence diagram" width="440px" height="370px" /></a>
 
 <h1><a id="user-content-software-usufruiti" class="anchor" href="https://github.com/alexg99805/ProgettoOOP#software-usufruiti" aria-hidden="true"></a>Software usufruiti</h1>
 <ul>
@@ -191,6 +191,6 @@ In questo punto esaminiamo nello specifico le chiamate che l'utente può effettu
 </ul>
 <h1><a id="user-content-autori" class="anchor" href="https://github.com/alexg99805/ProgettoOOP#autori" aria-hidden="true"></a>Autori</h1>
 <ul type="disc">
- 	<li><a href="https://github.com/alexg99805/ProgettoOOP">Davide Pacioni</a></li>
- 	<li><a href="https://github.com/alexg99805/ProgettoOOP">Alex Giaccio</a></li>
+ <li><a href="https://github.com/alexg99805/ProgettoOOP">Davide Pacioni</a>Sviluppo progetto determinato più sul codice.</li>
+ 	<li><a href="https://github.com/alexg99805/ProgettoOOP">Alex Giaccio(Sviluppo progetto determinato più su metadata, UML, sequence diagrams)</a></li>
 </ul>
