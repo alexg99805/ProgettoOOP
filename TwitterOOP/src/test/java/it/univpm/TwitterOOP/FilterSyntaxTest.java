@@ -2,6 +2,7 @@ package it.univpm.TwitterOOP;
 
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
+import org.json.simple.JSONObject;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -30,9 +31,9 @@ public class FilterSyntaxTest {
 	
 	@Test
 	public void testFilterService() {
-		Object bodyJSON =  "{Hashtag={Less=3}, Date={Type=and, HHHHH=[2020-07-14]}, Width={Type=or, Greater=1000}}"; 
+		String bodyJSON =  "{Hashtag={Less=3}, Date={Type=and, HHHHH=[2020-07-14]}, Width={Type=or, Greater=1000}}"; 
 		
-		assertThrows(FilterNotFoundException.class, ()-> FilterCall.callFilter(bodyJSON));		
+		assertThrows(FilterIllegalArgumentException.class, ()-> FilterCall.callFilter(bodyJSON));		
 	}
 	
 }

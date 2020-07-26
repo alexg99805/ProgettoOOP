@@ -16,15 +16,14 @@ import it.univpm.TwitterOOP.util.other.Filter;
 
 public class FilterCall {
 
-	public static ArrayList<Tweet> callFilter(Object bodyJSON) throws FilterNotFoundException, InstantiationException,
+	public static ArrayList<Tweet> callFilter(Object bodyJSON) throws InstantiationException,
 			IllegalAccessException, FilterIllegalArgumentException, InvocationTargetException,
-			NoSuchMethodException, SecurityException {
+			NoSuchMethodException, SecurityException, ClassNotFoundException {
 		System.out.println(bodyJSON);
 		ArrayList<Tweet> filteredData = new ArrayList<Tweet>();
 		ArrayList<Tweet> fullData = JSONParse.ParseInformazioni();
 		String chiave = "";
 		Object parametro;
-
 		// thank you stackoverflow <3
 		// https://stackoverflow.com/questions/443499/convert-json-to-map
 		HashMap<String, Object> mappa = new ObjectMapper().convertValue(bodyJSON, HashMap.class);
@@ -39,18 +38,12 @@ public class FilterCall {
 			HashMap<String, Object> keyMap = new ObjectMapper().convertValue(mappa.get(chiave), HashMap.class);
 			Set<String> chiavi2 = keyMap.keySet();
 			ArrayList<String> listOfParam = new ArrayList<String>(chiavi2);
-			Filter filtroDaUsare;
 			if (listOfParam.size() == 1) { // se è uguale ad uno non c'è il "Type"
 				parametro = listOfParam.get(0);
+				
 				// System.out.println(keyMap.get(parametro)); // <-- questo stampa il VALORE
 				// associato al PARAMETRO
-				Class<?> scegliClasse;
-				try {
-					scegliClasse = Class.forName("it.univpm.TwitterOOP.util.filter.Filter" + chiave + parametro);
-				} catch (ClassNotFoundException e) {
-					// TODO Auto-generated catch block
-					throw new FilterNotFoundException("Il filtro cercato non esiste");
-				}
+				Class<?> scegliClasse = Class.forName("it.univpm.TwitterOOP.util.filter.Filter" + chiave + parametro);
 				Object istanzaCostruttore = scegliClasse.getDeclaredConstructor(Object.class)
 						.newInstance(keyMap.get(parametro));
 				Method metodoDaUsare = scegliClasse.getMethod("filter", Tweet.class);
@@ -67,13 +60,7 @@ public class FilterCall {
 				parametro = listOfParam.get(1); // prendo il parametro
 				String tipoUnione = keyMap.get(listOfParam.get(0)).toString(); // and o or
 
-				Class<?> scegliClasse;
-				try {
-					scegliClasse = Class.forName("it.univpm.TwitterOOP.util.filter.Filter" + chiave + parametro);
-				} catch (ClassNotFoundException e) {
-					// TODO Auto-generated catch block
-					throw new FilterNotFoundException("Il filtro cercato non esiste");
-				}
+				Class<?> scegliClasse = Class.forName("it.univpm.TwitterOOP.util.filter.Filter" + chiave + parametro);
 				Object istanzaCostruttore = scegliClasse.getDeclaredConstructor(Object.class)
 						.newInstance(keyMap.get(parametro));
 				Method metodoDaUsare = scegliClasse.getMethod("filter", Tweet.class);
@@ -105,5 +92,6 @@ public class FilterCall {
 		return filteredData;
 
 	}
-
+	
+	
 }

@@ -92,19 +92,19 @@ public class ControllerClass {
 	 * @return ArrayList con al suo interno la frequenza per utente di hashtag
 	 * @throws InternalGeneralException
 	 * @throws StatsNotFoundException
-	 * @throws FilterNotFoundException
 	 * @throws SecurityException
 	 * @throws NoSuchMethodException
 	 * @throws InvocationTargetException
 	 * @throws IllegalArgumentException
 	 * @throws IllegalAccessException
 	 * @throws InstantiationException
+	 * @throws ClassNotFoundException 
 	 */
 	@RequestMapping(value = "/stats", method = RequestMethod.POST)
 	public ResponseEntity<Object> getStatsFilteredWithParam(
 			@RequestParam(name = "field", required = false, defaultValue = "0") int paramN, @RequestBody Object filter)
-			throws InternalGeneralException, FilterNotFoundException, InstantiationException, IllegalAccessException,
-			IllegalArgumentException, InvocationTargetException, NoSuchMethodException, SecurityException {
+			throws InternalGeneralException, InstantiationException, IllegalAccessException,
+			IllegalArgumentException, InvocationTargetException, NoSuchMethodException, SecurityException, ClassNotFoundException {
 		ArrayList<HashMap> stats;
 		ArrayList<Tweet> filtered = FilterCall.callFilter(filter);
 		Statistiche st = new Statistiche();
