@@ -141,7 +141,7 @@ Inoltre, è possibile concatenare più filtri utilizzando il comando "Type" che 
 <ul>
  	<li><strong>package it.univpm.TwitterOOP.model;</strong></li>
 </ul>
-<a href="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/Schermata%20del%202020-07-26%2018-54-41.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/Schermata%20del%202020-07-26%2018-54-41.png" alt="diagramma delle classi raffigurante il package model" width="1000px" height="850px" /></a>
+<a href="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/Schermata%20del%202020-07-26%2018-54-41.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/Schermata%20del%202020-07-26%2018-54-41.png" alt="diagramma delle classi raffigurante il package model" width="1000px" height="900px" /></a>
 <ul>
  	<li><strong>package it.univpm.TwitterOOP.service;</strong>
 
