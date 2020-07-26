@@ -43,27 +43,24 @@ public class JSONParse {
 
 				e.printStackTrace();
 			}
-			Hashtag single_hashtag;
 			Entities en = new Entities();
 			JSONObject entities_obj = (JSONObject) created_obj.get("entities");
 			JSONArray hashtagArray = (JSONArray) entities_obj.get("hashtags");
 
 			for (int j = 0; j < hashtagArray.size(); j++) {
-				single_hashtag = new Hashtag();
+				Hashtag single_hashtag = new Hashtag();
 				JSONObject hashtag_obj = (JSONObject) hashtagArray.get(j);
 				single_hashtag.setText((String) hashtag_obj.get("text"));
 				en.setHashtags(single_hashtag);
 			}
-			Image single_image;
 			if (entities_obj.containsKey("media")) {
 				JSONArray media = (JSONArray) entities_obj.get("media");
 				for (int j = 0; j < media.size(); j++) {
-					single_image = new Image();
+					Image single_image = new Image();
 					JSONObject media_obj = (JSONObject) media.get(j);
-					Dimensions dimensions;
 					JSONObject Size = (JSONObject) media_obj.get("sizes");
 					JSONObject dim = (JSONObject) Size.get("medium");
-					dimensions = new Dimensions();
+					Dimensions dimensions = new Dimensions();
 					dimensions.setWidth((long) dim.get("w"));
 					dimensions.setHeight((long) dim.get("h"));
 					dimensions.setSize(dimensions.calcDim((long) dim.get("w"), (long) dim.get("h")));

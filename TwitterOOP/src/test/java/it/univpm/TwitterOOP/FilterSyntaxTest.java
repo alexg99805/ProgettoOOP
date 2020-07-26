@@ -26,7 +26,7 @@ public class FilterSyntaxTest {
 	
 	@Test
 	public void testFilterService() {
-		//da aggiungere test
+		
 	}
 	
 }
