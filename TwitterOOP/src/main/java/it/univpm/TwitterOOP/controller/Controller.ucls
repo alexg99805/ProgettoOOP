@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <class-diagram version="1.2.4" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
   associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
-  <class id="1" language="java" name="it.univpm.TwitterOOP.controller.ControllerClass" project="TwitterOOP" 
-    file="/TwitterOOP/src/main/java/it/univpm/TwitterOOP/controller/ControllerClass.java" binary="false" 
+  <class id="1" language="java" name="it.univpm.TwitterOOP.controller.Controller" project="TwitterOOP" 
+    file="/TwitterOOP/src/main/java/it/univpm/TwitterOOP/controller/Controller.java" binary="false" 
     corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="545" y="195"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
