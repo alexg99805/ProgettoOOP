@@ -2,16 +2,16 @@ package it.univpm.TwitterOOP.model;
 
 /**
  * Classe per rappresentare le dimensioni delle immagini contenute nei tweet
+ * 
  * @author Davide Pacioni
  * @author Alex Giaccio
  *
  */
 public class Dimensions {
-	
-	private long height=0;
-	private long width=0;
-	private long bytes=0;
-	
+
+	private long height = 0;
+	private long width = 0;
+	private long bytes = 0;
 
 	public Dimensions() {
 		super();
@@ -45,7 +45,6 @@ public class Dimensions {
 		this.width = width;
 	}
 
-
 	public long getSize() {
 		return bytes;
 	}
@@ -53,10 +52,9 @@ public class Dimensions {
 	public void setSize(long size) {
 		this.bytes = size;
 	}
-	
+
 	public long calcDim(long w, long h) {
-		return (w*h)*3;
+		return (w * h) * 3;
 	}
-	
-	
+
 }

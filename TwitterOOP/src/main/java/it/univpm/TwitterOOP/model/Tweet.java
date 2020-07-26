@@ -6,21 +6,21 @@ import org.json.simple.parser.ParseException;
 
 /**
  * Questa classe contiene le principali caratteristiche di un Tweet
+ * 
  * @author Davide Pacioni
  * @author Alex Giaccio
  *
  */
 
 public class Tweet {
-	
+
 	private CreationDate created_at;
 	private ArrayList<Entities> entities = new ArrayList<Entities>();
 
-	
 	public Tweet() {
 		super();
 	}
-	
+
 	/**
 	 * @return created_at
 	 */
@@ -29,13 +29,13 @@ public class Tweet {
 	}
 
 	/**
-	 * @param created_at 
-	 * @throws ParseException 
+	 * @param created_at
+	 * @throws ParseException
 	 */
 	public void setCreated_at(String created_at) throws ParseException {
-		this.created_at= new CreationDate();
+		this.created_at = new CreationDate();
 		this.created_at.setCreation_date(created_at);
-		
+
 	}
 
 	/**
@@ -46,7 +46,7 @@ public class Tweet {
 	}
 
 	/**
-	 * @param newEntities 
+	 * @param newEntities
 	 */
 	public void setEntities(Entities newEntities) {
 		entities.add(newEntities);

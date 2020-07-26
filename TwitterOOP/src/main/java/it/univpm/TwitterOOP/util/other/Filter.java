@@ -10,12 +10,14 @@ import it.univpm.TwitterOOP.model.Tweet;
  *
  */
 public interface Filter {
-	
+
 	/**
-	 * Questo metodo restituisce Vero se il filtro rispetta le caratteristiche richieste
+	 * Questo metodo restituisce Vero se il filtro rispetta le caratteristiche
+	 * richieste
+	 * 
 	 * @param tweet che si vuole modificare
 	 * @return risposta
 	 */
 	public boolean filter(Tweet tweet);
-	
+
 }

@@ -2,14 +2,14 @@ package it.univpm.TwitterOOP.exception;
 
 /**
  * Eccezione specifica di tipo ClassNotFoundException.
+ * 
  * @author Davide Pacioni
  * @author Alex Giaccio
  * @see ClassNotFoundException
  *
  */
 
-public class FilterNotFoundException extends ClassNotFoundException{
-
+public class FilterNotFoundException extends ClassNotFoundException {
 
 	/**
 	 * 

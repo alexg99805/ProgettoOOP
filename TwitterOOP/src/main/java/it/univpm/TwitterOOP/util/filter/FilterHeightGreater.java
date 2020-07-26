@@ -5,36 +5,33 @@ import it.univpm.TwitterOOP.util.other.Filter;
 import it.univpm.TwitterOOP.util.other.Filter1Compare;
 import it.univpm.TwitterOOP.util.other.FilterArrayString;
 
-/** Questa classe controlla se l'immagine contenuta nel tweet che gli viene passato
- *  ha un'altezza maggiore rispetto a quella che gli viene passata
- *  
- *  @see Tweet
- *  @see Filter1Compare
- *  @see Filter
- *  
- *  @author Davide Pacioni
- *  @author Alex Giaccio
-*/
+/**
+ * Questa classe controlla se l'immagine contenuta nel tweet che gli viene
+ * passato ha un'altezza maggiore rispetto a quella che gli viene passata
+ * 
+ * @see Tweet
+ * @see Filter1Compare
+ * @see Filter
+ * 
+ * @author Davide Pacioni
+ * @author Alex Giaccio
+ */
 public class FilterHeightGreater extends Filter1Compare implements Filter {
 
-
-	public FilterHeightGreater(Object paramFilter) {                                  
+	public FilterHeightGreater(Object paramFilter) {
 		super(paramFilter);
 	}
-	
-	
+
 	@Override
 	public boolean filter(Tweet tweet) {
-		for(int i=0; i<tweet.getEntities().size(); i++) 
-			for(int j=0; j<tweet.getEntities().get(i).getImages().size(); j++)
-				for(int k=0;k<tweet.getEntities().get(i).getImages().get(j).getSize().size(); k++) {
-					if(tweet.getEntities().get(i).getImages().get(j).getSize().get(k).getHeight() > paramFilter)
+		for (int i = 0; i < tweet.getEntities().size(); i++)
+			for (int j = 0; j < tweet.getEntities().get(i).getImages().size(); j++)
+				for (int k = 0; k < tweet.getEntities().get(i).getImages().get(j).getSize().size(); k++) {
+					if (tweet.getEntities().get(i).getImages().get(j).getSize().get(k).getHeight() > paramFilter)
 						return true;
 				}
-	return false;
-	
+		return false;
+
 	}
-				
-				
-	
+
 }

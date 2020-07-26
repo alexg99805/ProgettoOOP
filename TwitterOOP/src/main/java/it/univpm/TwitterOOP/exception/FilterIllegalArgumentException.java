@@ -2,13 +2,13 @@ package it.univpm.TwitterOOP.exception;
 
 /**
  * Eccezione specifica del tipo IllegalArgumentException.
+ * 
  * @author Davide Pacioni
  * @author Alex Giaccio
  * @see IllegalArgumentException
  *
  */
-public class FilterIllegalArgumentException extends IllegalArgumentException{
-
+public class FilterIllegalArgumentException extends IllegalArgumentException {
 
 	/**
 	 * 

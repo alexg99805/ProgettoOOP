@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 /**
  * Classe contenente arraylist relativi ad hashtag ed immagini
+ * 
  * @see Hashtag
  * @see Image
  * @author Davide Pacioni
@@ -11,11 +12,10 @@ import java.util.ArrayList;
  *
  */
 public class Entities {
-	
+
 	private ArrayList<Hashtag> hashtg = new ArrayList<Hashtag>();
 	private ArrayList<Image> immagini = new ArrayList<Image>();
 
-	
 	public Entities() {
 	}
 
@@ -44,8 +44,8 @@ public class Entities {
 	 * @param newImage
 	 */
 	public void setImages(Image newImage) {
-		
+
 		immagini.add(newImage);
 	}
-	
+
 }

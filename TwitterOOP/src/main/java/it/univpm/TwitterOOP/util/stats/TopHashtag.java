@@ -10,8 +10,9 @@ import java.util.List;
 import it.univpm.TwitterOOP.model.Tweet;
 
 /**
- * Questa classe viene utilizzata per effettuare le statistiche sugli hashtag e per la formazione
- * della creazione di una top N degli hashtag
+ * Questa classe viene utilizzata per effettuare le statistiche sugli hashtag e
+ * per la formazione della creazione di una top N degli hashtag
+ * 
  * @author Davide Pacioni
  * @author Alex Giaccio
  *
@@ -38,7 +39,7 @@ public class TopHashtag {
 		}
 		return hashtagMap;
 	}
-	
+
 	public HashMap<String, Integer> retTopMap(ArrayList<Tweet> tw) {
 		HashMap<String, Integer> HashtagMap = retMap(tw);
 		HashMap<String, Integer> TopHashtag = new HashMap<String, Integer>();
@@ -93,7 +94,7 @@ public class TopHashtag {
 		return sortedMap;
 	}
 
-//overload per top N 
+	// overload per top N
 	public LinkedHashMap<String, Integer> sortHashMapByValues(HashMap<String, Integer> passedMap, int N) {
 		List<String> mapKeys = new ArrayList<>(passedMap.keySet());
 		List<Integer> mapValues = new ArrayList<>(passedMap.values());

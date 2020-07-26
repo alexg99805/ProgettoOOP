@@ -16,7 +16,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import it.univpm.TwitterOOP.service.FilterCall;
 import it.univpm.TwitterOOP.service.JSONParse;
-import it.univpm.TwitterOOP.service.JsonParser;
 
 import it.univpm.TwitterOOP.exception.FilterIllegalArgumentException;
 import it.univpm.TwitterOOP.exception.FilterNotFoundException;
@@ -94,15 +93,20 @@ public class ControllerClass {
 	 * @throws InternalGeneralException
 	 * @throws StatsNotFoundException
 	 * @throws FilterNotFoundException
-	 * @throws FilterIllegalArgumentException
+	 * @throws SecurityException
+	 * @throws NoSuchMethodException
+	 * @throws InvocationTargetException
+	 * @throws IllegalArgumentException
+	 * @throws IllegalAccessException
+	 * @throws InstantiationException
 	 */
 	@RequestMapping(value = "/stats", method = RequestMethod.POST)
 	public ResponseEntity<Object> getStatsWithPost(
 			@RequestParam(name = "field", required = false, defaultValue = "0") int paramN, @RequestBody Object filter)
-			throws InternalGeneralException, FilterNotFoundException,
-			FilterIllegalArgumentException {
+			throws InternalGeneralException, FilterNotFoundException, InstantiationException, IllegalAccessException,
+			IllegalArgumentException, InvocationTargetException, NoSuchMethodException, SecurityException {
 		ArrayList<HashMap> stats;
-		ArrayList<Tweet> filtered = JsonParser.JsonParserColumn(filter);
+		ArrayList<Tweet> filtered = FilterCall.callFilter(filter);
 		Statistiche st = new Statistiche();
 		stats = st.stats(filtered, paramN);
 		// hash = st.HashtagTweet(filtered);
@@ -120,8 +124,7 @@ public class ControllerClass {
 	@RequestMapping(value = "/stats", method = RequestMethod.GET)
 	public ResponseEntity<Object> getStats(
 			@RequestParam(name = "field", required = false, defaultValue = "0") int paramN)
-			throws InternalGeneralException, FilterNotFoundException,
-			FilterIllegalArgumentException {
+			throws InternalGeneralException, FilterNotFoundException, FilterIllegalArgumentException {
 		ArrayList<HashMap> stats;
 		Statistiche st = new Statistiche();
 		ArrayList<Tweet> tw = JSONParse.ParseInformazioni();
