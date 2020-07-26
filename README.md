@@ -171,7 +171,7 @@ In questo punto esaminiamo nello specifico le chiamate che l'utente può effettu
 <ul>
  	<li><strong>Chiamata POST /data</strong></li>
 </ul>
-<a href="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/sequence3.PNG" target="_blank" rel="noopener noreferrer"><img src="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/sequence3.PNG" alt="Chiamata POST data sequence diagram" width="880px" height="610px" /></a>
+<a href="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/postdata.PNG" target="_blank" rel="noopener noreferrer"><img src="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/postdata.PNG" alt="Chiamata POST data sequence diagram" width="880px" height="610px" /></a>
 <ul>
  	<li><strong>Chiamata GET /stats</strong></li>
 </ul>
@@ -179,7 +179,7 @@ In questo punto esaminiamo nello specifico le chiamate che l'utente può effettu
 <ul>
  	<li><strong>Chiamata POST /stats</strong></li>
 </ul>
-<a href="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/sequence5.PNG" target="_blank" rel="noopener noreferrer"><img src="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/sequence5.PNG" alt="Chiamata POST stats sequence diagram" width="440px" height="370px" /></a>
+<a href="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/poststats.PNG" target="_blank" rel="noopener noreferrer"><img src="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/poststats.PNG" alt="Chiamata POST stats sequence diagram" width="440px" height="370px" /></a>
 
 <h1><a id="user-content-software-usufruiti" class="anchor" href="https://github.com/alexg99805/ProgettoOOP#software-usufruiti" aria-hidden="true"></a>Software usufruiti</h1>
 <ul>
