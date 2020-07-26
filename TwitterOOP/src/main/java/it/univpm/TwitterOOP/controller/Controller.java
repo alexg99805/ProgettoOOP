@@ -34,7 +34,7 @@ import it.univpm.TwitterOOP.util.stats.Statistiche;
  * 
  */
 @RestController
-public class ControllerClass {
+public class Controller {
 	/*
 	 * Autowired consente la creazione di un'istanza del nostro servizio che sarà
 	 * possibile utilizzare per ogni operazione
