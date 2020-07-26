@@ -9,7 +9,7 @@ import java.util.ArrayList;
  * @author Alex Giaccio
  *
  */
-public class FilterArrayString {
+public class ArrayOfStringsCheck {
 
 	protected ArrayList<String> param = new ArrayList<String>();
 
@@ -19,7 +19,7 @@ public class FilterArrayString {
 	 * @param parameters ArrayList
 	 * @throws IllegalArgumentException il valore inserito non è quello desiderato
 	 */
-	public FilterArrayString(Object parameters) {
+	public ArrayOfStringsCheck(Object parameters) {
 
 		if (parameters instanceof ArrayList<?>) {
 

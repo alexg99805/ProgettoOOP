@@ -2,21 +2,21 @@ package it.univpm.TwitterOOP.util.filter;
 
 import it.univpm.TwitterOOP.model.Tweet;
 import it.univpm.TwitterOOP.util.other.Filter;
-import it.univpm.TwitterOOP.util.other.FilterArrayString;
+import it.univpm.TwitterOOP.util.other.ArrayOfStringsCheck;
 
 /**
  * Questa classe controlla se il tweet che gli viene passato contiene Hashtag
  * ben preciso
  * 
  * @see Tweet
- * @see FilterArrayString
+ * @see ArrayOfStringsCheck
  * @see Filter
  * 
  * @author Davide Pacioni
  * @author Alex Giaccio
  */
 
-public class FilterHashtagIncluded extends FilterArrayString implements Filter {
+public class FilterHashtagIncluded extends ArrayOfStringsCheck implements Filter {
 
 	public FilterHashtagIncluded(Object paramFilter) {
 		super(paramFilter);

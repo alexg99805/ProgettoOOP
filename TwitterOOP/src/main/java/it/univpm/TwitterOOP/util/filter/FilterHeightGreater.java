@@ -2,21 +2,21 @@ package it.univpm.TwitterOOP.util.filter;
 
 import it.univpm.TwitterOOP.model.Tweet;
 import it.univpm.TwitterOOP.util.other.Filter;
-import it.univpm.TwitterOOP.util.other.Filter1Compare;
-import it.univpm.TwitterOOP.util.other.FilterArrayString;
+import it.univpm.TwitterOOP.util.other.IntegerCompare;
+import it.univpm.TwitterOOP.util.other.ArrayOfStringsCheck;
 
 /**
  * Questa classe controlla se l'immagine contenuta nel tweet che gli viene
  * passato ha un'altezza maggiore rispetto a quella che gli viene passata
  * 
  * @see Tweet
- * @see Filter1Compare
+ * @see IntegerCompare
  * @see Filter
  * 
  * @author Davide Pacioni
  * @author Alex Giaccio
  */
-public class FilterHeightGreater extends Filter1Compare implements Filter {
+public class FilterHeightGreater extends IntegerCompare implements Filter {
 
 	public FilterHeightGreater(Object paramFilter) {
 		super(paramFilter);
