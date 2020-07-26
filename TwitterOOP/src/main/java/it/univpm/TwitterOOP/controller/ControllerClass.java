@@ -81,7 +81,7 @@ public class ControllerClass {
 	 */
 
 	@RequestMapping(value = "/data", method = RequestMethod.POST)
-	public ResponseEntity<Object> getFilteredWithPost(@RequestBody Object filter) throws InternalParseException,
+	public ResponseEntity<Object> getFilteredTweets(@RequestBody Object filter) throws InternalParseException,
 			InternalGeneralException, ClassNotFoundException, InstantiationException, IllegalAccessException,
 			IllegalArgumentException, InvocationTargetException, NoSuchMethodException, SecurityException {
 		return new ResponseEntity<>(FilterCall.callFilter(filter), HttpStatus.CREATED);
@@ -101,7 +101,7 @@ public class ControllerClass {
 	 * @throws InstantiationException
 	 */
 	@RequestMapping(value = "/stats", method = RequestMethod.POST)
-	public ResponseEntity<Object> getStatsWithPost(
+	public ResponseEntity<Object> getStatsFilteredWithParam(
 			@RequestParam(name = "field", required = false, defaultValue = "0") int paramN, @RequestBody Object filter)
 			throws InternalGeneralException, FilterNotFoundException, InstantiationException, IllegalAccessException,
 			IllegalArgumentException, InvocationTargetException, NoSuchMethodException, SecurityException {
