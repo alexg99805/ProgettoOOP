@@ -27,7 +27,6 @@ public class TweetServiceImpl implements TweetService {
 	private Map<String, Metadata> metadata = new HashMap<>();
 	private ArrayList<Tweet> tweets = new ArrayList<Tweet>();
 
-	// riempimento delle HashMap
 	public TweetServiceImpl() {
 		super();
 		try {
@@ -49,7 +48,6 @@ public class TweetServiceImpl implements TweetService {
 	public ArrayList<Tweet> getTweet() {
 		return tweets;
 	}
-
 	/**
 	 * @return un pacchetto di Metadata
 	 */
