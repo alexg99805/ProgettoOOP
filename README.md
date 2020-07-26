@@ -129,7 +129,7 @@ Inoltre, è possibile concatenare più filtri utilizzando il comando "Type" che 
 <ul>
  	<li><strong>package it.univpm.TwitterOOP.controller;</strong></li>
 </ul>
-<a href="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/Schermata%20del%202020-07-26%2018-51-53.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/Schermata%20del%202020-07-26%2018-51-53.png" alt="diagramma delle classi raffigurante il package controller" width="280px" height="200px" /></a>
+<a href="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/Schermata%20del%202020-07-26%2018-51-53.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/Schermata%20del%202020-07-26%2018-51-53.png" alt="diagramma delle classi raffigurante il package controller" width="500px" height="500px" /></a>
 <ul>
  	<li><strong>package it.univpm.TwitterOOP.db;</strong></li>
 </ul>
@@ -137,18 +137,18 @@ Inoltre, è possibile concatenare più filtri utilizzando il comando "Type" che 
 <ul>
  	<li><strong>package it.univpm.TwitterOOP.exception;</strong></li>
 </ul>
-<a href="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/Schermata%20del%202020-07-26%2018-53-27.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/Schermata%20del%202020-07-26%2018-53-27.png" alt="diagramma delle classi raffigurante il package Exception" width="550px" height="400px" /></a>
+<a href="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/Schermata%20del%202020-07-26%2018-53-27.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/Schermata%20del%202020-07-26%2018-53-27.png" alt="diagramma delle classi raffigurante il package Exception" width="550px" height="300px" /></a>
 <ul>
  	<li><strong>package it.univpm.TwitterOOP.model;</strong></li>
 </ul>
-<a href="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/Schermata%20del%202020-07-26%2018-54-41.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/Schermata%20del%202020-07-26%2018-54-41.png" alt="diagramma delle classi raffigurante il package model" width="1000px" height="650px" /></a>
+<a href="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/Schermata%20del%202020-07-26%2018-54-41.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/Schermata%20del%202020-07-26%2018-54-41.png" alt="diagramma delle classi raffigurante il package model" width="600px" height="650px" /></a>
 <ul>
  	<li><strong>package it.univpm.TwitterOOP.service;</strong>
 
 <a href="hhttps://github.com/alexg99805/ProgettoOOP/blob/master/UML/Schermata%20del%202020-07-26%2018-55-23.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/Schermata%20del%202020-07-26%2018-55-23.png" alt="diagramma delle classi raffigurante il package service" width="800px" height="530px" /></a></li>
  	<li><strong>package it.univpm.TwitterOOP.util.other;</strong></li>
 </ul>
-<a href="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/Schermata%20del%202020-07-26%2018-59-03.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/Schermata%20del%202020-07-26%2018-59-03.png" alt="diagramma delle classi raffigurante il package util" width="900px" height="530px" /></a>
+<a href="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/Schermata%20del%202020-07-26%2018-59-03.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/Schermata%20del%202020-07-26%2018-59-03.png" alt="diagramma delle classi raffigurante il package util" width="900px" height="400px" /></a>
 <ul>
  	<li><strong>package it.univpm.TwitterOOP.util.filter;</strong></li>
 </ul>
