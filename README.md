@@ -129,7 +129,7 @@ Inoltre, è possibile concatenare più filtri utilizzando il comando "Type" che 
 <ul>
  	<li><strong>package it.univpm.TwitterOOP.controller;</strong></li>
 </ul>
-<a href="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/Schermata%20del%202020-07-26%2018-51-53.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/Schermata%20del%202020-07-26%2018-51-53.png" alt="diagramma delle classi raffigurante il package controller" width="500px" height="500px" /></a>
+<a href="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/controller.jpeg" target="_blank" rel="noopener noreferrer"><img src="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/controller.jpeg" alt="diagramma delle classi raffigurante il package controller" width="500px" height="500px" /></a>
 <ul>
  	<li><strong>package it.univpm.TwitterOOP.db;</strong></li>
 </ul>
