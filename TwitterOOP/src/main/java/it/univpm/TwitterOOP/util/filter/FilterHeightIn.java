@@ -3,7 +3,6 @@ package it.univpm.TwitterOOP.util.filter;
 import it.univpm.TwitterOOP.model.Tweet;
 import it.univpm.TwitterOOP.util.other.Filter;
 import it.univpm.TwitterOOP.util.other.IntegersCompare;
-import it.univpm.TwitterOOP.util.other.ArrayOfStringsCheck;
 
 /**
  * Questa classe controlla se l'immagine contenuta nel tweet che gli viene

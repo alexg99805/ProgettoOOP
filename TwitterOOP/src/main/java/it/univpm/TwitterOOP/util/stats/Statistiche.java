@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 import it.univpm.TwitterOOP.model.Tweet;
-import it.univpm.TwitterOOP.service.JSONParse;
 
 /**
  * Questa classe viene utilizzata per il ritorno di tutte le statistiche in

@@ -1,17 +1,16 @@
 package it.univpm.TwitterOOP.service;
 
-import java.util.ArrayList;
-
-import it.univpm.TwitterOOP.model.Metadata;
-
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+import java.util.ArrayList;
 
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
+
+import it.univpm.TwitterOOP.model.Metadata;
 
 /**
  * Questa classe ci permette di visualizzare un intero array contenente tutti i

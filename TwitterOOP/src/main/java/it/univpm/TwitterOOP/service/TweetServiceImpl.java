@@ -2,12 +2,11 @@ package it.univpm.TwitterOOP.service;
 
 import java.util.ArrayList;
 import java.util.Collection;
-import java.util.Map;
 import java.util.HashMap;
+import java.util.Map;
 
 import org.springframework.stereotype.Service;
 
-import it.univpm.TwitterOOP.service.JSONParse;
 import it.univpm.TwitterOOP.model.Metadata;
 import it.univpm.TwitterOOP.model.Tweet;
 

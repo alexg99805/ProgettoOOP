@@ -1,10 +1,10 @@
 package it.univpm.TwitterOOP.util.stats;
 
-import it.univpm.TwitterOOP.model.Image;
-import it.univpm.TwitterOOP.model.Tweet;
-
 import java.util.ArrayList;
 import java.util.HashMap;
+
+import it.univpm.TwitterOOP.model.Image;
+import it.univpm.TwitterOOP.model.Tweet;
 
 /**
  * Questa classe viene utilizzata per effettuare le statistiche sulle immagini

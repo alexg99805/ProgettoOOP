@@ -4,15 +4,12 @@ import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.Map;
 import java.util.Set;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import it.univpm.TwitterOOP.exception.FilterIllegalArgumentException;
-import it.univpm.TwitterOOP.exception.FilterNotFoundException;
 import it.univpm.TwitterOOP.model.Tweet;
-import it.univpm.TwitterOOP.util.other.Filter;
 
 public class FilterCall {
 

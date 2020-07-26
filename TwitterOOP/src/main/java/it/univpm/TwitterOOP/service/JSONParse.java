@@ -7,7 +7,11 @@ import org.json.simple.JSONObject;
 import org.json.simple.parser.ParseException;
 
 import it.univpm.TwitterOOP.db.Database;
-import it.univpm.TwitterOOP.model.*;
+import it.univpm.TwitterOOP.model.Dimensions;
+import it.univpm.TwitterOOP.model.Entities;
+import it.univpm.TwitterOOP.model.Hashtag;
+import it.univpm.TwitterOOP.model.Image;
+import it.univpm.TwitterOOP.model.Tweet;
 
 /**
  * Questa classe ci permette di fare il parsing dei dati del file JSON che

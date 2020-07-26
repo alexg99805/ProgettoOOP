@@ -1,8 +1,8 @@
 package it.univpm.TwitterOOP.util.filter;
 
 import it.univpm.TwitterOOP.model.Tweet;
-import it.univpm.TwitterOOP.util.other.Filter;
 import it.univpm.TwitterOOP.util.other.ArrayOfStringsCheck;
+import it.univpm.TwitterOOP.util.other.Filter;
 
 /**
  * Questa classe controlla se il tweet che gli viene passato ha data superiore

@@ -2,13 +2,11 @@ package it.univpm.TwitterOOP;
 
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
-import org.json.simple.JSONObject;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import it.univpm.TwitterOOP.exception.FilterIllegalArgumentException;
-import it.univpm.TwitterOOP.exception.FilterNotFoundException;
 import it.univpm.TwitterOOP.service.FilterCall;
 
 /**
