@@ -11,6 +11,9 @@ package it.univpm.TwitterOOP.exception;
 public class FilterNotFoundException extends ClassNotFoundException{
 
 
+	/**
+	 * 
+	 */
 	private static final long serialVersionUID = 2L;
 
 	public FilterNotFoundException() {

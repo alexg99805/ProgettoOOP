@@ -44,7 +44,7 @@ public class TweetServiceImpl implements TweetService {
 	}
 
 	/**
-	 * @return un pacchetto di Tweet
+	 * @return ArrayList<Tweet> un ArrayList di Tweet
 	 */
 	@Override
 	public ArrayList<Tweet> getTweet() {

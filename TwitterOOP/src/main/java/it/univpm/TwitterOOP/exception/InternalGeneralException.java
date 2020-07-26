@@ -10,7 +10,9 @@ package it.univpm.TwitterOOP.exception;
 
 public class InternalGeneralException extends Exception {
 
-
+	/**
+	 * 
+	 */
 	private static final long serialVersionUID = 3L;
 
 	public InternalGeneralException() {

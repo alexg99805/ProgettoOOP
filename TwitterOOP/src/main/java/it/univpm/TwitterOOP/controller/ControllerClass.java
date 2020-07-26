@@ -21,7 +21,6 @@ import it.univpm.TwitterOOP.service.JsonParser;
 import it.univpm.TwitterOOP.exception.FilterIllegalArgumentException;
 import it.univpm.TwitterOOP.exception.FilterNotFoundException;
 import it.univpm.TwitterOOP.exception.InternalGeneralException;
-import it.univpm.TwitterOOP.exception.StatsNotFoundException;
 import it.univpm.TwitterOOP.model.Tweet;
 import it.univpm.TwitterOOP.service.TweetService;
 import it.univpm.TwitterOOP.util.stats.Statistiche;
@@ -100,7 +99,7 @@ public class ControllerClass {
 	@RequestMapping(value = "/stats", method = RequestMethod.POST)
 	public ResponseEntity<Object> getStatsWithPost(
 			@RequestParam(name = "field", required = false, defaultValue = "0") int paramN, @RequestBody Object filter)
-			throws InternalGeneralException, StatsNotFoundException, FilterNotFoundException,
+			throws InternalGeneralException, FilterNotFoundException,
 			FilterIllegalArgumentException {
 		ArrayList<HashMap> stats;
 		ArrayList<Tweet> filtered = JsonParser.JsonParserColumn(filter);
@@ -121,7 +120,7 @@ public class ControllerClass {
 	@RequestMapping(value = "/stats", method = RequestMethod.GET)
 	public ResponseEntity<Object> getStats(
 			@RequestParam(name = "field", required = false, defaultValue = "0") int paramN)
-			throws InternalGeneralException, StatsNotFoundException, FilterNotFoundException,
+			throws InternalGeneralException, FilterNotFoundException,
 			FilterIllegalArgumentException {
 		ArrayList<HashMap> stats;
 		Statistiche st = new Statistiche();

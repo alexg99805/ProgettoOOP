@@ -11,7 +11,6 @@ public class Dimensions {
 	private long height=0;
 	private long width=0;
 	private long bytes=0;
-	private String resize = null;
 	
 
 	public Dimensions() {
@@ -46,19 +45,6 @@ public class Dimensions {
 		this.width = width;
 	}
 
-	/**
-	 * @return resize
-	 */
-	public String getResize() {
-		return resize;
-	}
-
-	/**
-	 * @param resize
-	 */
-	public void setResize(String resize) {
-		this.resize = resize;
-	}
 
 	public long getSize() {
 		return bytes;

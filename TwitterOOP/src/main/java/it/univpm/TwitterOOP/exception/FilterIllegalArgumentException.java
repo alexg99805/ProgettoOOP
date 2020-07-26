@@ -10,6 +10,9 @@ package it.univpm.TwitterOOP.exception;
 public class FilterIllegalArgumentException extends IllegalArgumentException{
 
 
+	/**
+	 * 
+	 */
 	private static final long serialVersionUID = 1L;
 
 	public FilterIllegalArgumentException() {

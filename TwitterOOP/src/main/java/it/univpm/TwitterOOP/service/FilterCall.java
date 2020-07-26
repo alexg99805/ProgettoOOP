@@ -9,14 +9,16 @@ import java.util.Set;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
+import it.univpm.TwitterOOP.exception.FilterIllegalArgumentException;
+import it.univpm.TwitterOOP.exception.FilterNotFoundException;
 import it.univpm.TwitterOOP.model.Tweet;
 import it.univpm.TwitterOOP.util.other.Filter;
 
 public class FilterCall {
 
-	public static ArrayList<Tweet> callFilter(Object bodyJSON)
-			throws ClassNotFoundException, InstantiationException, IllegalAccessException, IllegalArgumentException,
-			InvocationTargetException, NoSuchMethodException, SecurityException {
+	public static ArrayList<Tweet> callFilter(Object bodyJSON) throws FilterNotFoundException, InstantiationException,
+			IllegalAccessException, FilterIllegalArgumentException, IllegalArgumentException, InvocationTargetException,
+			NoSuchMethodException, SecurityException {
 		System.out.println(bodyJSON);
 		ArrayList<Tweet> filteredData = new ArrayList<Tweet>();
 		ArrayList<Tweet> fullData = JSONParse.ParseInformazioni();
@@ -40,44 +42,63 @@ public class FilterCall {
 			Filter filtroDaUsare;
 			if (listOfParam.size() == 1) { // se è uguale ad uno non c'è il "Type"
 				parametro = listOfParam.get(0);
-				System.out.println(keyMap.get(parametro)); // <-- questo stampa il VALORE
+				// System.out.println(keyMap.get(parametro)); // <-- questo stampa il VALORE
 				// associato al PARAMETRO
-				Class<?> scegliClasse = Class.forName("it.univpm.TwitterOOP.util.filter.Filter" + chiave + parametro);
-				Object istanzaCostruttore = scegliClasse.getDeclaredConstructor(Object.class).newInstance(keyMap.get(parametro));
+				Class<?> scegliClasse;
+				try {
+					scegliClasse = Class.forName("it.univpm.TwitterOOP.util.filter.Filter" + chiave + parametro);
+				} catch (ClassNotFoundException e) {
+					// TODO Auto-generated catch block
+					throw new FilterNotFoundException("Il filtro cercato non esiste");
+				}
+				Object istanzaCostruttore = scegliClasse.getDeclaredConstructor(Object.class)
+						.newInstance(keyMap.get(parametro));
 				Method metodoDaUsare = scegliClasse.getMethod("filter", Tweet.class);
-				
-				//ora devo scorrere l'arrayList dei tweet non filtrato e controllare elemento per elemento che il tweet corrisponda alla condizione posta dal filtro (restituisce un boolean)
-				for(int j=0; j<fullData.size(); j++) {
-					if((boolean) metodoDaUsare.invoke(istanzaCostruttore, fullData.get(j))) {
+
+				// ora devo scorrere l'arrayList dei tweet non filtrato e controllare elemento
+				// per elemento che il tweet corrisponda alla condizione posta dal filtro
+				// (restituisce un boolean)
+				for (int j = 0; j < fullData.size(); j++) {
+					if ((boolean) metodoDaUsare.invoke(istanzaCostruttore, fullData.get(j))) {
 						filteredData.add(fullData.get(j));
 					}
 				}
-			} else {//altrimenti ho il type e devo controllare se ho un'unione di tipo and/or
+			} else {// altrimenti ho il type e devo controllare se ho un'unione di tipo and/or
 				parametro = listOfParam.get(1); // prendo il parametro
-				String tipoUnione = keyMap.get(listOfParam.get(0)).toString(); //and o or
-				
-				Class<?> scegliClasse = Class.forName("it.univpm.TwitterOOP.util.filter.Filter" + chiave + parametro);
-				Object istanzaCostruttore = scegliClasse.getDeclaredConstructor(Object.class).newInstance(keyMap.get(parametro));
+				String tipoUnione = keyMap.get(listOfParam.get(0)).toString(); // and o or
+
+				Class<?> scegliClasse;
+				try {
+					scegliClasse = Class.forName("it.univpm.TwitterOOP.util.filter.Filter" + chiave + parametro);
+				} catch (ClassNotFoundException e) {
+					// TODO Auto-generated catch block
+					throw new FilterNotFoundException("Il filtro cercato non esiste");
+				}
+				Object istanzaCostruttore = scegliClasse.getDeclaredConstructor(Object.class)
+						.newInstance(keyMap.get(parametro));
 				Method metodoDaUsare = scegliClasse.getMethod("filter", Tweet.class);
-				
-				//tipo and: scorro i dati per controllare se quelli che già ho corrispondano anche all ulteriore filtro
-				if(tipoUnione.equals("and")) {
-					for(int j=0; j<filteredData.size(); j++) {
-						if(!(boolean) metodoDaUsare.invoke(istanzaCostruttore, filteredData.get(j))) {
+
+				// tipo and: scorro i dati per controllare se quelli che già ho corrispondano
+				// anche all ulteriore filtro
+				if (tipoUnione.equals("and")) {
+					for (int j = 0; j < filteredData.size(); j++) {
+						if (!(boolean) metodoDaUsare.invoke(istanzaCostruttore, filteredData.get(j))) {
 							filteredData.remove(fullData.get(j));
 						}
 					}
 				}
-				//scorro l'arraylist originario e aggiungo quelli che corrispondono al filtro all arraylist già filtrato
-				if(tipoUnione.equals("or")) {
-					for(int j=0; j<fullData.size(); j++) {
-						if((boolean) metodoDaUsare.invoke(istanzaCostruttore, fullData.get(j))) {
+				// scorro l'arraylist originario e aggiungo quelli che corrispondono al filtro
+				// all arraylist già filtrato
+				else if (tipoUnione.equals("or")) {
+					for (int j = 0; j < fullData.size(); j++) {
+						if ((boolean) metodoDaUsare.invoke(istanzaCostruttore, fullData.get(j))) {
 							filteredData.add(fullData.get(j));
 						}
 					}
+				} else {
+					throw new FilterIllegalArgumentException("Type must be 'and'/'or'");
 				}
 			}
-
 
 		}
 
