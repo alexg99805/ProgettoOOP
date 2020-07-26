@@ -129,7 +129,7 @@ Inoltre, è possibile concatenare più filtri utilizzando il comando "Type" che 
 <ul>
  	<li><strong>package it.univpm.TwitterOOP.controller;</strong></li>
 </ul>
-<a href="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/controllerdiagrams.PNG" target="_blank" rel="noopener noreferrer"><img src="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/controllerdiagrams.PNG" alt="diagramma delle classi raffigurante il package controller" width="280px" height="200px" /></a>
+<a href="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/Schermata%20del%202020-07-26%2018-51-53.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/Schermata%20del%202020-07-26%2018-51-53.png" alt="diagramma delle classi raffigurante il package controller" width="280px" height="200px" /></a>
 <ul>
  	<li><strong>package it.univpm.TwitterOOP.db;</strong></li>
 </ul>
@@ -137,27 +137,27 @@ Inoltre, è possibile concatenare più filtri utilizzando il comando "Type" che 
 <ul>
  	<li><strong>package it.univpm.TwitterOOP.exception;</strong></li>
 </ul>
-<a href="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/exceptionsdiagrams.PNG" target="_blank" rel="noopener noreferrer"><img src="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/exceptionsdiagrams.PNG" alt="diagramma delle classi raffigurante il package Exception" width="550px" height="400px" /></a>
+<a href="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/Schermata%20del%202020-07-26%2018-53-27.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/Schermata%20del%202020-07-26%2018-53-27.png" alt="diagramma delle classi raffigurante il package Exception" width="550px" height="400px" /></a>
 <ul>
  	<li><strong>package it.univpm.TwitterOOP.model;</strong></li>
 </ul>
-<a href="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/modelsdiagrams.PNG" target="_blank" rel="noopener noreferrer"><img src="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/modelsdiagrams.PNG" alt="diagramma delle classi raffigurante il package model" width="1000px" height="650px" /></a>
+<a href="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/Schermata%20del%202020-07-26%2018-54-41.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/Schermata%20del%202020-07-26%2018-54-41.png" alt="diagramma delle classi raffigurante il package model" width="1000px" height="650px" /></a>
 <ul>
  	<li><strong>package it.univpm.TwitterOOP.service;</strong>
 
-<a href="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/servicediagrams.PNG" target="_blank" rel="noopener noreferrer"><img src="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/servicediagrams.PNG" alt="diagramma delle classi raffigurante il package service" width="800px" height="530px" /></a></li>
+<a href="hhttps://github.com/alexg99805/ProgettoOOP/blob/master/UML/Schermata%20del%202020-07-26%2018-55-23.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/Schermata%20del%202020-07-26%2018-55-23.png" alt="diagramma delle classi raffigurante il package service" width="800px" height="530px" /></a></li>
  	<li><strong>package it.univpm.TwitterOOP.util.other;</strong></li>
 </ul>
-<a href="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/otherdiagrams.PNG" target="_blank" rel="noopener noreferrer"><img src="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/otherdiagrams.PNG" alt="diagramma delle classi raffigurante il package util" width="900px" height="530px" /></a>
+<a href="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/Schermata%20del%202020-07-26%2018-59-03.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/Schermata%20del%202020-07-26%2018-59-03.png" alt="diagramma delle classi raffigurante il package util" width="900px" height="530px" /></a>
 <ul>
  	<li><strong>package it.univpm.TwitterOOP.util.filter;</strong></li>
 </ul>
-<a href="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/filterdiagrams.PNG" target="_blank" rel="noopener noreferrer"><img src="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/filterdiagrams.PNG" alt="diagramma delle classi raffigurante il package filter" width="890px" height="530px" /></a>
+<a href="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/Schermata%20del%202020-07-26%2018-57-42.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/Schermata%20del%202020-07-26%2018-57-42.png" alt="diagramma delle classi raffigurante il package filter" width="890px" height="530px" /></a>
 <ul>
  	<li><strong>package it.univpm.TwitterOOP.util.stats;</strong></li>
 </ul>
 
-<a href="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/statsdiagram.PNG" target="_blank" rel="noopener noreferrer"><img src="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/statsdiagram.PNG" alt="diagramma delle classi raffigurante il package stats" width="800px" height="530px" /></a>
+<a href="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/Schermata%20del%202020-07-26%2019-00-02.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/Schermata%20del%202020-07-26%2019-00-02.png" alt="diagramma delle classi raffigurante il package stats" width="800px" height="530px" /></a>
 <h2><a id="user-content--chiamate-" class="anchor" href="https://github.com/alexg99805/ProgettoOOP#-chiamate-" aria-hidden="true"></a>Chiamate</h2>
 In questo punto esaminiamo nello specifico le chiamate che l'utente può effettuare utilizzando i diagrammi delle sequenze, i quali mostrano come interagiscono tra di loro gli oggetti delle varie classi e forniscono informazioni anche di tipo temporale, poiché le interazioni nel diagramma vengono disposte in ordine cronologico.<ul>
  	<li><strong>Chiamata GET /metadata</strong></li>
