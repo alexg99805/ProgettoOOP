@@ -17,7 +17,7 @@ import it.univpm.TwitterOOP.util.other.Filter;
 public class FilterCall {
 
 	public static ArrayList<Tweet> callFilter(Object bodyJSON) throws FilterNotFoundException, InstantiationException,
-			IllegalAccessException, FilterIllegalArgumentException, IllegalArgumentException, InvocationTargetException,
+			IllegalAccessException, FilterIllegalArgumentException, InvocationTargetException,
 			NoSuchMethodException, SecurityException {
 		System.out.println(bodyJSON);
 		ArrayList<Tweet> filteredData = new ArrayList<Tweet>();

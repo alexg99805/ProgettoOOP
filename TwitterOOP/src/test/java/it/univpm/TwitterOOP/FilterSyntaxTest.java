@@ -6,6 +6,10 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import it.univpm.TwitterOOP.exception.FilterIllegalArgumentException;
+import it.univpm.TwitterOOP.exception.FilterNotFoundException;
+import it.univpm.TwitterOOP.service.FilterCall;
+
 /**
  * Classe che effettua test sul funzionamento delle eccezioni 
  * @author Davide Pacioni
@@ -26,7 +30,9 @@ public class FilterSyntaxTest {
 	
 	@Test
 	public void testFilterService() {
+		Object bodyJSON =  "{Hashtag={Less=3}, Date={Type=and, HHHHH=[2020-07-14]}, Width={Type=or, Greater=1000}}"; 
 		
+		assertThrows(FilterNotFoundException.class, ()-> FilterCall.callFilter(bodyJSON));		
 	}
 	
 }

@@ -28,37 +28,15 @@ public class ArrayOfStringsCheck {
 				if (element instanceof String) {
 					param.add((String) element);
 				} else {
-					throw new IllegalArgumentException("Type: String ");
+					throw new IllegalArgumentException("Il tipo deve essere String ");
 				}
 			}
 
 		} else {
-			throw new IllegalArgumentException("Type: Array ");
+			throw new IllegalArgumentException("Deve essere un array");
 		}
 	}
 
-	/**
-	 * Set
-	 * 
-	 * @param parameters ArrayList
-	 * @throws IllegalArgumentException il valore inserito non è quello desiderato
-	 */
-	public void SetFilterParameters(Object parameters) {
 
-		if (parameters instanceof ArrayList<?>) {
-
-			for (Object element : (ArrayList<?>) parameters) {
-
-				if (element instanceof String) {
-					param.add((String) element);
-				} else {
-					throw new IllegalArgumentException("Type: String ");
-				}
-			}
-
-		} else {
-			throw new IllegalArgumentException("Type: Array ");
-		}
-	}
 
 }

@@ -21,95 +21,33 @@ public class IntegersCompare {
 	 * @throws IllegalArgumentException il valore passato non è quello desiderato
 	 */
 	public IntegersCompare(Object param) {
-
 		if (param instanceof ArrayList<?>) {
 
 			if (((ArrayList<?>) param).size() != 2) {
-				throw new IndexOutOfBoundsException("2 Integer ");
+				throw new IndexOutOfBoundsException("Solo 2 interi!");
 			}
 
 			if (((ArrayList<?>) param).get(0) instanceof Integer) {
 				param1 = (int) ((ArrayList<?>) param).get(0);
 			} else {
-				throw new IllegalArgumentException("Type: Integer ");
+				throw new IllegalArgumentException("Il tipo deve essere un intero ");
 			}
 
 			if (((ArrayList<?>) param).get(1) instanceof Integer) {
 				param2 = (int) ((ArrayList<?>) param).get(1);
 			} else {
-				throw new IllegalArgumentException("Type: Integer ");
+				throw new IllegalArgumentException("Il tipo deve essere un intero");
 			}
 
 		} else {
-			throw new IllegalArgumentException("Type: Array of 2 Integer ");
+			throw new IllegalArgumentException("Il tipo deve essere un array di 2 interi");
 		}
 
 		if (param2 < param1) {
-			throw new IllegalArgumentException("Integer two must be greater than Integer one ");
+			throw new IllegalArgumentException("Il secondo intero deve essere > del primo intero");
 		}
 	}
 
-	/**
-	 * Set
-	 * 
-	 * @param param è un ArrayList di interi che deve avere lunghezza due
-	 * @throws IllegalArgumentException il valore passato non è quello desiderato
-	 */
 
-	public void setParameters(Object param) {
 
-		if (param instanceof ArrayList<?>) {
-
-			if (((ArrayList<?>) param).size() != 2) {
-				throw new IndexOutOfBoundsException("2 Integer ");
-			}
-
-			if (((ArrayList<?>) param).get(0) instanceof Integer) {
-				param1 = (int) ((ArrayList<?>) param).get(0);
-			} else {
-				throw new IllegalArgumentException("Type: Integer ");
-			}
-
-			if (((ArrayList<?>) param).get(1) instanceof Integer) {
-				param2 = (int) ((ArrayList<?>) param).get(1);
-			} else {
-				throw new IllegalArgumentException("Type: Integer ");
-			}
-
-		} else {
-			throw new IllegalArgumentException("Type: Array of 2 Integer ");
-		}
-
-		if (param2 < param1) {
-			throw new IllegalArgumentException("Integer two must be greater than Integer one ");
-		}
-	}
-
-	/**
-	 * @return first paramet
-	 */
-	public int getParam1() {
-		return param1;
-	}
-
-	/**
-	 * @param parameter il primo parametro ha un nuovo valore
-	 */
-	public void setParam1(int param1) {
-		this.param1 = param1;
-	}
-
-	/**
-	 * @return second parameter
-	 */
-	public int getParam2() {
-		return param2;
-	}
-
-	/**
-	 * @param param2 il secondo parametro ha un nuovo valore
-	 */
-	public void setParam2(int param2) {
-		this.param2 = param2;
-	}
 }
