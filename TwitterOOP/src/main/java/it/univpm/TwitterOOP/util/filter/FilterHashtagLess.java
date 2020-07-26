@@ -2,21 +2,21 @@ package it.univpm.TwitterOOP.util.filter;
 
 import it.univpm.TwitterOOP.model.Tweet;
 import it.univpm.TwitterOOP.util.other.Filter;
-import it.univpm.TwitterOOP.util.other.IntegerCompare;
+import it.univpm.TwitterOOP.util.other.IntegerCheck;
 
 /**
  * Questa classe controlla se il tweet che gli viene passato ha meno di tot
  * hashtag dove tot è passato tramite param
  * 
  * @see Tweet
- * @see IntegerCompare
+ * @see IntegerCheck
  * @see Filter
  * 
  * @author Davide Pacioni
  * @author Alex Giaccio
  */
 
-public class FilterHashtagLess extends IntegerCompare implements Filter {
+public class FilterHashtagLess extends IntegerCheck implements Filter {
 
 	public FilterHashtagLess(Object paramFilter) {
 		super(paramFilter);

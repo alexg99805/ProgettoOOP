@@ -2,7 +2,7 @@ package it.univpm.TwitterOOP.util.filter;
 
 import it.univpm.TwitterOOP.model.Tweet;
 import it.univpm.TwitterOOP.util.other.Filter;
-import it.univpm.TwitterOOP.util.other.IntegersCompare;
+import it.univpm.TwitterOOP.util.other.IntegersCheck;
 
 /**
  * Questa classe controlla se l'immagine contenuta nel tweet che gli viene
@@ -10,13 +10,13 @@ import it.univpm.TwitterOOP.util.other.IntegersCompare;
  * forniti
  * 
  * @see Tweet
- * @see IntegersCompare
+ * @see IntegersCheck
  * @see Filter
  * 
  * @author Davide Pacioni
  * @author Alex Giaccio
  */
-public class FilterSizeNin extends IntegersCompare implements Filter {
+public class FilterSizeNin extends IntegersCheck implements Filter {
 
 	public FilterSizeNin(Object param) {
 		super(param);

@@ -9,7 +9,7 @@ import java.util.ArrayList;
  * @author Alex Giaccio
  *
  */
-public class IntegersCompare {
+public class IntegersCheck {
 
 	protected int param1;
 	protected int param2;
@@ -20,7 +20,7 @@ public class IntegersCompare {
 	 * @param param è un ArrayList di interi che deve avere lunghezza due
 	 * @throws IllegalArgumentException il valore passato non è quello desiderato
 	 */
-	public IntegersCompare(Object param) {
+	public IntegersCheck(Object param) {
 		if (param instanceof ArrayList<?>) {
 
 			if (((ArrayList<?>) param).size() != 2) {

@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="it.univpm.TwitterOOP.util.filter.FilterSizeLess" project="TwitterOOP" 
+    file="/TwitterOOP/src/main/java/it/univpm/TwitterOOP/util/filter/FilterSizeLess.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="97" width="134" x="302" y="153"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="it.univpm.TwitterOOP.util.filter.FilterDateBefore" project="TwitterOOP" 
+    file="/TwitterOOP/src/main/java/it/univpm/TwitterOOP/util/filter/FilterDateBefore.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="97" width="143" x="476" y="153"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="it.univpm.TwitterOOP.util.filter.FilterWidthLess" project="TwitterOOP" 
+    file="/TwitterOOP/src/main/java/it/univpm/TwitterOOP/util/filter/FilterWidthLess.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="97" width="137" x="659" y="153"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="it.univpm.TwitterOOP.util.filter.FilterHashtagGreater" project="TwitterOOP" 
+    file="/TwitterOOP/src/main/java/it/univpm/TwitterOOP/util/filter/FilterHashtagGreater.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="97" width="165" x="836" y="153"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="it.univpm.TwitterOOP.util.filter.FilterHashtagNin" project="TwitterOOP" 
+    file="/TwitterOOP/src/main/java/it/univpm/TwitterOOP/util/filter/FilterHashtagNin.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="613" y="421"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="it.univpm.TwitterOOP.util.filter.FilterHashtagIncluded" project="TwitterOOP" 
+    file="/TwitterOOP/src/main/java/it/univpm/TwitterOOP/util/filter/FilterHashtagIncluded.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="780" y="425"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="it.univpm.TwitterOOP.util.filter.FilterDateAfter" project="TwitterOOP" 
+    file="/TwitterOOP/src/main/java/it/univpm/TwitterOOP/util/filter/FilterDateAfter.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="964" y="427"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="it.univpm.TwitterOOP.util.filter.FilterHashtagLess" project="TwitterOOP" 
+    file="/TwitterOOP/src/main/java/it/univpm/TwitterOOP/util/filter/FilterHashtagLess.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="442" y="529"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="it.univpm.TwitterOOP.util.filter.FilterSizeNin" project="TwitterOOP" 
+    file="/TwitterOOP/src/main/java/it/univpm/TwitterOOP/util/filter/FilterSizeNin.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="378" y="313"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="it.univpm.TwitterOOP.util.filter.FilterHeightGreater" project="TwitterOOP" 
+    file="/TwitterOOP/src/main/java/it/univpm/TwitterOOP/util/filter/FilterHeightGreater.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="395" y="646"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="it.univpm.TwitterOOP.util.filter.FilterHashtagNotIncluded" project="TwitterOOP" 
+    file="/TwitterOOP/src/main/java/it/univpm/TwitterOOP/util/filter/FilterHashtagNotIncluded.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="414" y="425"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="it.univpm.TwitterOOP.util.filter.FilterHashtagIn" project="TwitterOOP" 
+    file="/TwitterOOP/src/main/java/it/univpm/TwitterOOP/util/filter/FilterHashtagIn.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="949" y="652"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="it.univpm.TwitterOOP.util.filter.FilterSizeIn" project="TwitterOOP" 
+    file="/TwitterOOP/src/main/java/it/univpm/TwitterOOP/util/filter/FilterSizeIn.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="977" y="545"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="it.univpm.TwitterOOP.util.filter.FilterWidthIn" project="TwitterOOP" 
+    file="/TwitterOOP/src/main/java/it/univpm/TwitterOOP/util/filter/FilterWidthIn.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="580" y="672"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="it.univpm.TwitterOOP.util.filter.FilterHeightNin" project="TwitterOOP" 
+    file="/TwitterOOP/src/main/java/it/univpm/TwitterOOP/util/filter/FilterHeightNin.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="909" y="313"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="it.univpm.TwitterOOP.util.filter.FilterHeightIn" project="TwitterOOP" 
+    file="/TwitterOOP/src/main/java/it/univpm/TwitterOOP/util/filter/FilterHeightIn.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="553" y="313"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="it.univpm.TwitterOOP.util.filter.FilterSizeGreater" project="TwitterOOP" 
+    file="/TwitterOOP/src/main/java/it/univpm/TwitterOOP/util/filter/FilterSizeGreater.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="716" y="317"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="18" language="java" name="it.univpm.TwitterOOP.util.filter.FilterWidthGreater" project="TwitterOOP" 
+    file="/TwitterOOP/src/main/java/it/univpm/TwitterOOP/util/filter/FilterWidthGreater.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="767" y="662"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="19" language="java" name="it.univpm.TwitterOOP.util.filter.FilterHeightLess" project="TwitterOOP" 
+    file="/TwitterOOP/src/main/java/it/univpm/TwitterOOP/util/filter/FilterHeightLess.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="783" y="540"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="20" language="java" name="it.univpm.TwitterOOP.util.filter.FilterWidthNin" project="TwitterOOP" 
+    file="/TwitterOOP/src/main/java/it/univpm/TwitterOOP/util/filter/FilterWidthNin.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="619" y="542"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

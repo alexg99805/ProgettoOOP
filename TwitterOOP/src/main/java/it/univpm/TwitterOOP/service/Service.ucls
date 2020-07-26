@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="it.univpm.TwitterOOP.service.TweetServiceImpl" project="TwitterOOP" 
+    file="/TwitterOOP/src/main/java/it/univpm/TwitterOOP/service/TweetServiceImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="151" width="191" x="439" y="208"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="it.univpm.TwitterOOP.service.JSONParse" project="TwitterOOP" 
+    file="/TwitterOOP/src/main/java/it/univpm/TwitterOOP/service/JSONParse.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="97" width="206" x="670" y="208"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="it.univpm.TwitterOOP.service.ArrayMetadata" project="TwitterOOP" 
+    file="/TwitterOOP/src/main/java/it/univpm/TwitterOOP/service/ArrayMetadata.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="133" width="222" x="916" y="208"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="4" language="java" name="it.univpm.TwitterOOP.service.TweetService" project="TwitterOOP" 
+    file="/TwitterOOP/src/main/java/it/univpm/TwitterOOP/service/TweetService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="97" width="191" x="439" y="399"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="5" language="java" name="it.univpm.TwitterOOP.service.FilterCall" project="TwitterOOP" 
+    file="/TwitterOOP/src/main/java/it/univpm/TwitterOOP/service/FilterCall.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="97" width="189" x="1178" y="208"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <realization id="6">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="4"/>  
+  </realization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

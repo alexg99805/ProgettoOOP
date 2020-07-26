@@ -7,7 +7,7 @@ package it.univpm.TwitterOOP.util.other;
  * @author Alex Giaccio
  *
  */
-public class IntegerCompare {
+public class IntegerCheck {
 
 	protected int paramFilter;
 
@@ -18,7 +18,7 @@ public class IntegerCompare {
 	 * @throws IllegalArgumentException viene lanciata se viene inserito il tipo
 	 *                                  sbagliato
 	 */
-	public IntegerCompare(Object paramFilter) {
+	public IntegerCheck(Object paramFilter) {
 		System.out.println(paramFilter);
 		if (paramFilter instanceof Integer) {
 			this.paramFilter = (Integer) paramFilter;

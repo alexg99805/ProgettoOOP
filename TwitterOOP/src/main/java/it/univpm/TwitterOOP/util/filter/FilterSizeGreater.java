@@ -2,20 +2,20 @@ package it.univpm.TwitterOOP.util.filter;
 
 import it.univpm.TwitterOOP.model.Tweet;
 import it.univpm.TwitterOOP.util.other.Filter;
-import it.univpm.TwitterOOP.util.other.IntegerCompare;
+import it.univpm.TwitterOOP.util.other.IntegerCheck;
 
 /**
  * Questa classe controlla se l'immagine contenuta nel tweet che gli viene
  * passato ha una dimensione maggiore rispetto al parametro fornito
  * 
  * @see Tweet
- * @see IntegerCompare
+ * @see IntegerCheck
  * @see Filter
  * 
  * @author Davide Pacioni
  * @author Alex Giaccio
  */
-public class FilterSizeGreater extends IntegerCompare implements Filter {
+public class FilterSizeGreater extends IntegerCheck implements Filter {
 
 	public FilterSizeGreater(Object paramFilter) {
 		super(paramFilter);

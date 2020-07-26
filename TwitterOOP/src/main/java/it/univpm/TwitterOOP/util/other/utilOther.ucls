@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <interface id="1" language="java" name="it.univpm.TwitterOOP.util.other.Filter" project="TwitterOOP" 
+    file="/TwitterOOP/src/main/java/it/univpm/TwitterOOP/util/other/Filter.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="79" width="137" x="368" y="107"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="2" language="java" name="it.univpm.TwitterOOP.util.other.ArrayOfStringsCheck" project="TwitterOOP" 
+    file="/TwitterOOP/src/main/java/it/univpm/TwitterOOP/util/other/ArrayOfStringsCheck.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="97" width="164" x="545" y="107"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="it.univpm.TwitterOOP.util.other.IntegerCheck" project="TwitterOOP" 
+    file="/TwitterOOP/src/main/java/it/univpm/TwitterOOP/util/other/IntegerCheck.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="97" width="137" x="749" y="107"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="it.univpm.TwitterOOP.util.other.IntegersCheck" project="TwitterOOP" 
+    file="/TwitterOOP/src/main/java/it/univpm/TwitterOOP/util/other/IntegersCheck.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="115" width="137" x="926" y="107"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
