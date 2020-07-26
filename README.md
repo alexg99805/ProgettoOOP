@@ -191,6 +191,6 @@ In questo punto esaminiamo nello specifico le chiamate che l'utente può effettu
 </ul>
 <h1><a id="user-content-autori" class="anchor" href="https://github.com/alexg99805/ProgettoOOP#autori" aria-hidden="true"></a>Autori</h1>
 <ul type="disc">
- <li><a href="https://github.com/alexg99805/ProgettoOOP">Davide Pacioni</a><h1>Sviluppo progetto determinato più sul codice</h1><</li>
+ <li><a href="https://github.com/alexg99805/ProgettoOOP">Davide Pacioni</a>Sviluppo progetto determinato più sul codice.</li>
  	<li><a href="https://github.com/alexg99805/ProgettoOOP">Alex Giaccio(Sviluppo progetto determinato più su metadata, UML, sequence diagrams)</a></li>
 </ul>
