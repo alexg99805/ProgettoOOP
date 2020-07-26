@@ -163,11 +163,11 @@ In questo punto esaminiamo nello specifico le chiamate che l'utente può effettu
  	<li><strong>Chiamata GET /metadata</strong></li>
 </ul>
 
-<a href="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/sequence1.PNG" target="_blank" rel="noopener noreferrer"><img src="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/sequence1.PNG" alt="Chiamata  GET metadata sequence diagram" width="440px" height="370px" /></a>
+<a href="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/getmetadata.jpeg" target="_blank" rel="noopener noreferrer"><img src="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/getmetadata.jpeg" alt="Chiamata  GET metadata sequence diagram" width="440px" height="370px" /></a>
 <ul>
  	<li><strong>Chiamata GET /data</strong></li>
 </ul>
-<a href="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/sequence2.PNG" target="_blank" rel="noopener noreferrer"><img src="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/sequence2.PNG" alt="Chiamata GET data sequence diagram" width="440px" height="370px" /></a>
+<a href="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/getdata.jpeg" target="_blank" rel="noopener noreferrer"><img src="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/getdata.jpeg" alt="Chiamata GET data sequence diagram" width="440px" height="370px" /></a>
 <ul>
  	<li><strong>Chiamata POST /data</strong></li>
 </ul>
@@ -175,7 +175,7 @@ In questo punto esaminiamo nello specifico le chiamate che l'utente può effettu
 <ul>
  	<li><strong>Chiamata GET /stats</strong></li>
 </ul>
-<a href="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/sequence4.PNG" target="_blank" rel="noopener noreferrer"><img src="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/sequence4.PNG" alt="Chiamata GET stats sequence diagram" width="440px" height="370px" /></a>
+<a href="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/getstats.jpeg" target="_blank" rel="noopener noreferrer"><img src="https://github.com/alexg99805/ProgettoOOP/blob/master/UML/getmetadata.jpeg" alt="Chiamata GET stats sequence diagram" width="440px" height="370px" /></a>
 <ul>
  	<li><strong>Chiamata POST /stats</strong></li>
 </ul>
